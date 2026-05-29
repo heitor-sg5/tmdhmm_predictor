@@ -1,14 +1,14 @@
-MOTIF_LIBRARY = {
-    "G/AXXXG/A": "G/AXXXG/A",
-    "S/TXXXS/T": "S/TXXXS/T",
-    "GXXXXXXG": "GXXXXXXG",
-    "GXXXXXG": "GXXXXXG",
-    "N/QXXXG": "N/QXXXG",
-    "S/TXXXG": "S/TXXXG",
-    "PXXXP": "PXXXP",
-    "PXXP": "PXXP",
-    "GXXP": "GXXP",
-}
+MOTIF_LIBRARY = [
+    "G/AXXXG/A",
+    "S/TXXXS/T",
+    "GXXXXXXG",
+    "GXXXXXG",
+    "N/QXXXG",
+    "S/TXXXG",
+    "PXXXP",
+    "PXXP",
+    "GXXP",
+]
 
 def _compile_pattern(pattern):
     """
@@ -75,19 +75,18 @@ def detect_tm_motifs(sequence, tm_start, tm_end, motif_names=None):
     Detect registered motifs inside the predicted TM segment.
     """
     tm_seq = sequence[tm_start:tm_end]
-    active_names = motif_names or list(MOTIF_LIBRARY.keys())
+    active_patterns = motif_names or MOTIF_LIBRARY
 
     motifs = []
     total_hits = 0
 
-    for name in active_names:
-        pattern = MOTIF_LIBRARY.get(name)
-        if pattern is None:
+    for pattern in active_patterns:
+        if pattern not in MOTIF_LIBRARY:
             continue
         hits = _find_pattern_hits(tm_seq, pattern, offset=tm_start)
         motifs.append(
             {
-                "name": name,
+                "name": pattern,
                 "pattern": pattern,
                 "hits": hits,
                 "count": len(hits),

@@ -160,3 +160,52 @@ def build_alternating_path(seq_len, tm_spans, start_loop_state="C"):
                 path[i] = loop_state
 
     return path
+
+def merge_hmm_and_guided_spans(hmm_spans, guided_spans, min_gap=2):
+    """
+    Merge HMM-detected spans with candidate-guided refined spans.
+    """
+    if not hmm_spans and not guided_spans:
+        return []
+    if not hmm_spans:
+        return list(guided_spans)
+    if not guided_spans:
+        return list(hmm_spans)
+    
+    # For each HMM span, find if there's a corresponding guided span (by overlap)
+    merged = []
+    used_guided = set()
+    
+    for hmm_span in sorted(hmm_spans, key=lambda s: s["start"]):
+        best_guided_idx = None
+        best_overlap = 0
+        
+        # Find guided span with maximum overlap with this HMM span
+        for i, guided_span in enumerate(guided_spans):
+            overlap = max(
+                0,
+                min(guided_span["end"], hmm_span["end"]) -
+                max(guided_span["start"], hmm_span["start"])
+            )
+            if overlap > best_overlap:
+                best_overlap = overlap
+                best_guided_idx = i
+        
+        # If we found a substantial overlap, use the guided version
+        if best_guided_idx is not None and best_overlap > 0:
+            merged.append(dict(guided_spans[best_guided_idx]))
+            used_guided.add(best_guided_idx)
+        else:
+            # No corresponding guided span: keep the HMM version as-is
+            merged.append(dict(hmm_span))
+    
+    # Add any guided spans that didn't match an HMM span
+    for i, guided_span in enumerate(guided_spans):
+        if i not in used_guided:
+            merged.append(dict(guided_span))
+    
+    # Sort by start position and enforce minimum gap
+    merged = sorted(merged, key=lambda s: s["start"])
+    merged = _enforce_min_gap(merged, min_gap=min_gap)
+    
+    return merged

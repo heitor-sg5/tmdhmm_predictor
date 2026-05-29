@@ -45,6 +45,10 @@ POSITIVE_RESIDUES = frozenset("RK")
 # Aromatic residues that anchor TM helices at the membrane interface
 AROMATIC_RESIDUES = frozenset("WYF")
 
+# Shared residue categories for TM heuristics
+HYDROPHOBIC_RESIDUES = frozenset("ILVFAMCWG")
+CHARGED_RESIDUES = frozenset("RKDEH")
+
 # All valid single-letter amino acid codes
 VALID_AA = frozenset(KD_SCORES.keys())
 

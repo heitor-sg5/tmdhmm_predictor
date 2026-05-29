@@ -1,4 +1,10 @@
-from data.residues import POSITIVE_RESIDUES, AROMATIC_RESIDUES, KD_SCORES
+from data.residues import (
+    POSITIVE_RESIDUES,
+    AROMATIC_RESIDUES,
+    KD_SCORES,
+    HYDROPHOBIC_RESIDUES,
+    CHARGED_RESIDUES,
+)
 
 # Positive-inside rule
 def check_positive_inside(sequence, tm_start, tm_end, flank=30):
@@ -69,11 +75,8 @@ def analyse_tm_composition(sequence, tm_start, tm_end):
         return {}
 
     n = len(tm_seq)
-    hydrophobic = set("ILVFAMCWG")
-    charged = set("RKDEH")
-
-    hyd_count = sum(1 for aa in tm_seq if aa in hydrophobic)
-    chg_count = sum(1 for aa in tm_seq if aa in charged)
+    hyd_count = sum(1 for aa in tm_seq if aa in HYDROPHOBIC_RESIDUES)
+    chg_count = sum(1 for aa in tm_seq if aa in CHARGED_RESIDUES)
     pro_count = tm_seq.count("P")
     mean_kd = sum(KD_SCORES.get(aa, 0.0) for aa in tm_seq) / n
 

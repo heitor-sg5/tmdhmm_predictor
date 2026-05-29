@@ -12,7 +12,7 @@ from core.confidence import (
     compute_region_confidence,
 )
 
-from hmm.viterbi import viterbi, candidate_guided_tm_domains, build_alternating_path
+from hmm.viterbi import viterbi, candidate_guided_tm_domains, build_alternating_path, merge_hmm_and_guided_spans
 from hmm.model import load_params, TRAINED_PARAMS_PATH
 
 from ui.plots import (
@@ -78,7 +78,9 @@ if predict_btn or "last_result" in st.session_state:
 
         # Candidate-guided multi-domain refinement (local HMM per candidate).
         guided_spans = candidate_guided_tm_domains(seq, candidates, flank=10, min_loop_gap=2)
-        display_spans = guided_spans if guided_spans else hmm_spans
+        # Merge global HMM spans with candidate-guided refined spans to avoid missing
+        # domains that fall just below the KD threshold but are detected by the HMM
+        display_spans = merge_hmm_and_guided_spans(hmm_spans, guided_spans, min_gap=2)
         display_path = build_alternating_path(
             len(seq),
             display_spans,
@@ -89,11 +91,26 @@ if predict_btn or "last_result" in st.session_state:
         confidence["domain_count"] = len(display_spans)
         domain_confidences = compute_domain_confidences(seq, display_spans, candidates)
 
+        # Precompute per-domain statistics once for UI display
+        display_domains = []
+        for span, d_conf in zip(display_spans, domain_confidences):
+            d_start = span["start"]
+            d_end = span["end"]
+            display_domains.append({
+                "span": span,
+                "confidence": d_conf,
+                "composition": analyse_tm_composition(seq, d_start, d_end),
+                "aromatics": find_aromatic_anchors(seq, d_start, d_end),
+                "motifs": detect_tm_motifs(seq, d_start, d_end),
+                "positive_inside": check_positive_inside(seq, d_start, d_end),
+            })
+
     # Store result in session state
     st.session_state["last_result"] = {
         "seq": seq, "window_scores": window_scores, "candidates": candidates,
         "confidence": confidence,
         "domain_confidences": domain_confidences,
+        "display_domains": display_domains,
         "hmm_path": hmm_path, "hmm_spans": hmm_spans,
         "display_path": display_path, "display_spans": display_spans,
         "hmm_log_prob": hmm_result["log_prob"],
@@ -113,7 +130,8 @@ hmm_spans = r["hmm_spans"]
 display_path = r.get("display_path", hmm_path)
 display_spans = r.get("display_spans", hmm_spans)
 domain_confidences = r.get("domain_confidences", [])
-tm_domain_count = r.get("tm_domain_count", len(hmm_spans))
+display_domains = r.get("display_domains", [])
+tm_domain_count = r.get("tm_domain_count", len(display_spans))
 candidate_count = confidence.get("candidate_count", len(candidates))
 
 # Results
@@ -201,9 +219,10 @@ with tab_topo:
 
     spans_for_rule = display_spans if display_spans else (candidates[:1] if candidates else [])
 
-    for i, span in enumerate(spans_for_rule, start=1):
+    for i, domain in enumerate(display_domains, start=1):
+        span = domain["span"]
         d_start, d_end = span["start"], span["end"]
-        d_pos_inside = check_positive_inside(seq, d_start, d_end)
+        d_pos_inside = domain["positive_inside"]
         label = f"TM domain {i} (residues {d_start+1}–{d_end})"
         with st.expander(label):
             st.markdown(f"""
@@ -231,17 +250,15 @@ with tab_evidence:
             )
         else:
             st.info("No TM domains or KD candidates detected.")
-    for i, span in enumerate(display_spans, start=1):
+
+    for i, domain in enumerate(display_domains, start=1):
+        span = domain["span"]
         d_start = span["start"]
         d_end = span["end"]
-        d_conf = (
-            domain_confidences[i - 1]
-            if i - 1 < len(domain_confidences)
-            else compute_region_confidence(seq, d_start, d_end)
-        )
-        d_comp = analyse_tm_composition(seq, d_start, d_end)
-        d_aro = find_aromatic_anchors(seq, d_start, d_end)
-        d_motifs = detect_tm_motifs(seq, d_start, d_end)
+        d_conf = domain["confidence"]
+        d_comp = domain["composition"]
+        d_aro = domain["aromatics"]
+        d_motifs = domain["motifs"]
 
         with st.expander(
             f"TM domain {i}: residues {d_start+1}–{d_end} "
