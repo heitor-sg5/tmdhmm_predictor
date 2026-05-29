@@ -1,0 +1,2891 @@
+ID   LRC32_MOUSE             Reviewed;         663 AA.
+AC   G3XA59; A0A0U1RQ93;
+DT   10-OCT-2018, integrated into UniProtKB/Swiss-Prot.
+DT   16-NOV-2011, sequence version 1.
+DT   28-JAN-2026, entry version 105.
+DE   RecName: Full=Transforming growth factor beta activator LRRC32 {ECO:0000305};
+DE   AltName: Full=Garpin {ECO:0000250|UniProtKB:Q14392};
+DE   AltName: Full=Glycoprotein A repetitions predominant {ECO:0000303|PubMed:25127859};
+DE            Short=GARP {ECO:0000303|PubMed:25127859};
+DE   AltName: Full=Leucine-rich repeat-containing protein 32 {ECO:0000305};
+DE   Flags: Precursor;
+GN   Name=Lrrc32 {ECO:0000312|MGI:MGI:93882};
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=C57BL/6J;
+RX   PubMed=19468303; DOI=10.1371/journal.pbio.1000112;
+RA   Church D.M., Goodstadt L., Hillier L.W., Zody M.C., Goldstein S., She X.,
+RA   Bult C.J., Agarwala R., Cherry J.L., DiCuccio M., Hlavina W., Kapustin Y.,
+RA   Meric P., Maglott D., Birtle Z., Marques A.C., Graves T., Zhou S.,
+RA   Teague B., Potamousis K., Churas C., Place M., Herschleb J., Runnheim R.,
+RA   Forrest D., Amos-Landgraf J., Schwartz D.C., Cheng Z., Lindblad-Toh K.,
+RA   Eichler E.E., Ponting C.P.;
+RT   "Lineage-specific biology revealed by a finished genome assembly of the
+RT   mouse.";
+RL   PLoS Biol. 7:E1000112-E1000112(2009).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Mural R.J., Adams M.D., Myers E.W., Smith H.O., Venter J.C.;
+RL   Submitted (JUL-2005) to the EMBL/GenBank/DDBJ databases.
+RN   [3]
+RP   FUNCTION.
+RX   PubMed=25127859; DOI=10.4049/jimmunol.1401102;
+RA   Edwards J.P., Thornton A.M., Shevach E.M.;
+RT   "Release of active TGF-beta1 from the latent TGF-beta1/GARP complex on T
+RT   regulatory cells is mediated by integrin beta8.";
+RL   J. Immunol. 193:2843-2849(2014).
+RN   [4]
+RP   FUNCTION, INTERACTION WITH TGFB3, DISRUPTION PHENOTYPE, AND TISSUE
+RP   SPECIFICITY.
+RX   PubMed=28912269; DOI=10.1074/jbc.m117.797613;
+RA   Wu B.X., Li A., Lei L., Kaneko S., Wallace C., Li X., Li Z.;
+RT   "Glycoprotein A repetitions predominant (GARP) positively regulates
+RT   transforming growth factor (TGF) beta3 and is essential for mouse
+RT   palatogenesis.";
+RL   J. Biol. Chem. 292:18091-18097(2017).
+CC   -!- FUNCTION: Key regulator of transforming growth factor beta (TGFB1,
+CC       TGFB2 and TGFB3) that controls TGF-beta activation by maintaining it in
+CC       a latent state during storage in extracellular space (PubMed:25127859).
+CC       Associates specifically via disulfide bonds with the Latency-associated
+CC       peptide (LAP), which is the regulatory chain of TGF-beta, and regulates
+CC       integrin-dependent activation of TGF-beta (PubMed:25127859,
+CC       PubMed:28912269). Able to outcompete LTBP1 for binding to LAP
+CC       regulatory chain of TGF-beta (By similarity). Controls activation of
+CC       TGF-beta-1 (TGFB1) on the surface of activated regulatory T-cells
+CC       (Tregs) (PubMed:25127859). Required for epithelial fusion during palate
+CC       development by regulating activation of TGF-beta-3 (TGFB3)
+CC       (PubMed:28912269). {ECO:0000250|UniProtKB:Q14392,
+CC       ECO:0000269|PubMed:25127859, ECO:0000269|PubMed:28912269}.
+CC   -!- SUBUNIT: Interacts with TGFB1; associates via disulfide bonds with the
+CC       Latency-associated peptide chain (LAP) regulatory chain of TGFB1,
+CC       leading to regulate activation of TGF-beta-1 (By similarity). Interacts
+CC       with TGFB2 (By similarity). Interacts with TGFB3; associates via
+CC       disulfide bonds with the Latency-associated peptide chain (LAP)
+CC       regulatory chain of TGFB3, leading to regulate activation of TGF-beta-3
+CC       (PubMed:28912269). Interacts with LAPTM4B; decreases TGFB1 production
+CC       in regulatory T-cells (By similarity). {ECO:0000250|UniProtKB:Q14392,
+CC       ECO:0000269|PubMed:28912269}.
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000250|UniProtKB:Q14392};
+CC       Single-pass type I membrane protein {ECO:0000255}. Cell surface
+CC       {ECO:0000250|UniProtKB:Q14392}.
+CC   -!- TISSUE SPECIFICITY: Present in medial edge epithelial cells at 14.5 dpc
+CC       (at protein level). {ECO:0000269|PubMed:28912269}.
+CC   -!- DISRUPTION PHENOTYPE: Lethality within 24 hours after birth
+CC       (PubMed:28912269). Mice display defective palatogenesis without
+CC       apparent abnormalities in other major organs (PubMed:28912269).
+CC       {ECO:0000269|PubMed:28912269}.
+CC   -!- SIMILARITY: Belongs to the LRRC32/LRRC33 family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AC115069; -; NOT_ANNOTATED_CDS; Genomic_DNA.
+DR   EMBL; CH466531; EDL16346.1; -; Genomic_DNA.
+DR   CCDS; CCDS52319.1; -.
+DR   RefSeq; NP_001106850.1; NM_001113379.2.
+DR   RefSeq; XP_006508041.1; XM_006507978.4.
+DR   RefSeq; XP_006508042.1; XM_006507979.4.
+DR   PDB; 8REX; EM; 3.00 A; E=1-629.
+DR   PDBsum; 8REX; -.
+DR   AlphaFoldDB; G3XA59; -.
+DR   EMDB; EMD-19111; -.
+DR   SMR; G3XA59; -.
+DR   FunCoup; G3XA59; 219.
+DR   STRING; 10090.ENSMUSP00000145859; -.
+DR   GlyCosmos; G3XA59; 6 sites, No reported glycans.
+DR   GlyGen; G3XA59; 6 sites, 2 N-linked glycans (2 sites).
+DR   PhosphoSitePlus; G3XA59; -.
+DR   PaxDb; 10090-ENSMUSP00000133205; -.
+DR   PeptideAtlas; G3XA59; -.
+DR   ProteomicsDB; 337412; -.
+DR   Antibodypedia; 45130; 337 antibodies from 30 providers.
+DR   Ensembl; ENSMUST00000165205.2; ENSMUSP00000133205.2; ENSMUSG00000090958.3.
+DR   Ensembl; ENSMUST00000205956.2; ENSMUSP00000145859.2; ENSMUSG00000090958.3.
+DR   GeneID; 434215; -.
+DR   KEGG; mmu:434215; -.
+DR   UCSC; uc012fpt.1; mouse.
+DR   AGR; MGI:93882; -.
+DR   CTD; 2615; -.
+DR   MGI; MGI:93882; Lrrc32.
+DR   VEuPathDB; HostDB:ENSMUSG00000090958; -.
+DR   eggNOG; KOG0619; Eukaryota.
+DR   GeneTree; ENSGT00940000162288; -.
+DR   HOGENOM; CLU_024194_1_0_1; -.
+DR   InParanoid; G3XA59; -.
+DR   OMA; CIRRQKF; -.
+DR   OrthoDB; 8195690at2759; -.
+DR   PhylomeDB; G3XA59; -.
+DR   BioGRID-ORCS; 434215; 1 hit in 78 CRISPR screens.
+DR   PRO; PR:G3XA59; -.
+DR   Proteomes; UP000000589; Chromosome 7.
+DR   RNAct; G3XA59; protein.
+DR   Bgee; ENSMUSG00000090958; Expressed in lung and 85 other cell types or tissues.
+DR   ExpressionAtlas; G3XA59; baseline and differential.
+DR   GO; GO:0009986; C:cell surface; ISS:UniProtKB.
+DR   GO; GO:0005654; C:nucleoplasm; ISO:GO_Central.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0141069; F:receptor ligand inhibitor activity; ISO:GO_Central.
+DR   GO; GO:0038023; F:signaling receptor activity; IBA:GO_Central.
+DR   GO; GO:0050431; F:transforming growth factor beta binding; IPI:UniProtKB.
+DR   GO; GO:0035592; P:establishment of protein localization to extracellular region; IDA:UniProtKB.
+DR   GO; GO:0046007; P:negative regulation of activated T cell proliferation; IDA:MGI.
+DR   GO; GO:0001818; P:negative regulation of cytokine production; IDA:MGI.
+DR   GO; GO:0030512; P:negative regulation of transforming growth factor beta receptor signaling pathway; IBA:GO_Central.
+DR   GO; GO:0010628; P:positive regulation of gene expression; IDA:MGI.
+DR   GO; GO:0062009; P:secondary palate development; IMP:UniProtKB.
+DR   GO; GO:0007179; P:transforming growth factor beta receptor signaling pathway; ISS:UniProtKB.
+DR   FunFam; 3.80.10.10:FF:000226; leucine-rich repeat-containing protein 32 isoform X1; 1.
+DR   FunFam; 3.80.10.10:FF:000397; Transforming growth factor beta activator LRRC32; 1.
+DR   FunFam; 3.80.10.10:FF:000482; Transforming growth factor beta activator LRRC32; 1.
+DR   Gene3D; 3.80.10.10; Ribonuclease Inhibitor; 4.
+DR   InterPro; IPR001611; Leu-rich_rpt.
+DR   InterPro; IPR003591; Leu-rich_rpt_typical-subtyp.
+DR   InterPro; IPR032675; LRR_dom_sf.
+DR   PANTHER; PTHR45617; LEUCINE RICH REPEAT FAMILY PROTEIN; 1.
+DR   PANTHER; PTHR45617:SF181; LP04042P; 1.
+DR   Pfam; PF13855; LRR_8; 5.
+DR   SMART; SM00364; LRR_BAC; 8.
+DR   SMART; SM00368; LRR_RI; 3.
+DR   SMART; SM00369; LRR_TYP; 14.
+DR   SUPFAM; SSF52058; L domain-like; 2.
+DR   PROSITE; PS51450; LRR; 20.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Disulfide bond; Glycoprotein;
+KW   Growth factor binding; Leucine-rich repeat; Membrane; Reference proteome;
+KW   Repeat; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..17
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           18..663
+FT                   /note="Transforming growth factor beta activator LRRC32"
+FT                   /evidence="ECO:0000255"
+FT                   /id="PRO_0000445577"
+FT   TOPO_DOM        18..628
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000305"
+FT   TRANSMEM        629..649
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        650..663
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000305"
+FT   DOMAIN          22..49
+FT                   /note="LRRNT"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          49..72
+FT                   /note="LRR 1"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          73..96
+FT                   /note="LRR 2"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          98..123
+FT                   /note="LRR 3"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          125..148
+FT                   /note="LRR 4"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          149..172
+FT                   /note="LRR 5"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          174..196
+FT                   /note="LRR 6"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          197..220
+FT                   /note="LRR 7"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          222..241
+FT                   /note="LRR 8"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          243..267
+FT                   /note="LRR 9"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          269..287
+FT                   /note="LRR 10"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          315..338
+FT                   /note="LRR 11"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          340..362
+FT                   /note="LRR 12"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          363..386
+FT                   /note="LRR 13"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          387..409
+FT                   /note="LRR 14"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          411..433
+FT                   /note="LRR 15"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          443..466
+FT                   /note="LRR 16"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          468..489
+FT                   /note="LRR 17"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          491..514
+FT                   /note="LRR 18"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          515..539
+FT                   /note="LRR 19"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          541..559
+FT                   /note="LRR 20"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          561..584
+FT                   /note="LRR 21"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          572..621
+FT                   /note="LRRCT"
+FT                   /evidence="ECO:0000255"
+FT   REGION          291..311
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        301..311
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        204
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        272
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        305
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        309
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        346
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        546
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        212
+FT                   /note="Interchain (with C-33 in TGFB1); in linked form"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14392"
+FT   DISULFID        351
+FT                   /note="Interchain (with C-33 in TGFB1); in linked form"
+FT                   /evidence="ECO:0000250|UniProtKB:Q14392"
+SQ   SEQUENCE   663 AA;  72418 MW;  90A7D5DB8EE41A73 CRC64;
+     MSHQILLLLA MLTLGLAISQ RREQVPCRTV NKEALCHGLG LLQVPSVLSL DIQALYLSGN
+     QLQSILVSPL GFYTALRHLD LSDNQISFLQ AGVFQALPYL EHLNLAHNRL ATGMALNSGG
+     LGRLPLLVSL DLSGNSLHGN LVERLLGETP RLRTLSLAEN SLTRLARHTF WGMPAVEQLD
+     LHSNVLMDIE DGAFEALPHL THLNLSRNSL TCISDFSLQQ LQVLDLSCNS IEAFQTAPEP
+     QAQFQLAWLD LRENKLLHFP DLAVFPRLIY LNVSNNLIQL PAGLPRGSED LHAPSEGWSA
+     SPLSNPSRNA STHPLSQLLN LDLSYNEIEL VPASFLEHLT SLRFLNLSRN CLRSFEARQV
+     DSLPCLVLLD LSHNVLEALE LGTKVLGSLQ TLLLQDNALQ ELPPYTFASL ASLQRLNLQG
+     NQVSPCGGPA EPGPPGCVDF SGIPTLHVLN MAGNSMGMLR AGSFLHTPLT ELDLSTNPGL
+     DVATGALVGL EASLEVLELQ GNGLTVLRVD LPCFLRLKRL NLAENQLSHL PAWTRAVSLE
+     VLDLRNNSFS LLPGNAMGGL ETSLRRLYLQ GNPLSCCGNG WLAAQLHQGR VDVDATQDLI
+     CRFGSQEELS LSLVRPEDCE KGGLKNVNLI LLLSFTLVSA IVLTTLATIC FLRRQKLSQQ
+     YKA
+//
+ID   LAMP1_MOUSE             Reviewed;         406 AA.
+AC   P11438; Q62020;
+DT   01-OCT-1989, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1990, sequence version 2.
+DT   28-JAN-2026, entry version 199.
+DE   RecName: Full=Lysosome-associated membrane glycoprotein 1;
+DE            Short=LAMP-1;
+DE            Short=Lysosome-associated membrane protein 1;
+DE   AltName: Full=120 kDa lysosomal membrane glycoprotein;
+DE   AltName: Full=CD107 antigen-like family member A;
+DE   AltName: Full=LGP-120;
+DE   AltName: Full=Lysosomal membrane glycoprotein A;
+DE            Short=LGP-A;
+DE   AltName: Full=P2B;
+DE   AltName: CD_antigen=CD107a;
+DE   Flags: Precursor;
+GN   Name=Lamp1; Synonyms=Lamp-1;
+OS   Mus musculus (Mouse).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea; Muridae;
+OC   Murinae; Mus; Mus.
+OX   NCBI_TaxID=10090;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=2142158; DOI=10.1016/s0021-9258(19)38504-7;
+RA   Granger B.L., Green S.A., Gabel C.A., Howe C.L., Mellman I., Helenius A.;
+RT   "Characterization and cloning of lgp110, a lysosomal membrane glycoprotein
+RT   from mouse and rat cells.";
+RL   J. Biol. Chem. 265:12036-12043(1990).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA], AND FUNCTION.
+RX   PubMed=2676155;
+RA   Heffernan M., Yousefi S., Dennis J.W.;
+RT   "Molecular characterization of P2B/LAMP-1, a major protein target of a
+RT   metastasis-associated oligosaccharide structure.";
+RL   Cancer Res. 49:6077-6084(1989).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=C57BL/6J; TISSUE=Brain;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [MRNA] OF 25-406, AND PARTIAL PROTEIN SEQUENCE.
+RX   PubMed=3379044; DOI=10.1016/s0021-9258(18)68370-x;
+RA   Chen J.W., Cha Y., Yuksel K.U., Gracy R.W., August J.T.;
+RT   "Isolation and sequencing of a cDNA clone encoding lysosomal membrane
+RT   glycoprotein mouse LAMP-1. Sequence similarity to proteins bearing onco-
+RT   differentiation antigens.";
+RL   J. Biol. Chem. 263:8754-8758(1988).
+RN   [5]
+RP   DISULFIDE BONDS.
+RX   PubMed=2332434; DOI=10.1016/s0021-9258(19)39130-6;
+RA   Arterburn L.M., Earles B.J., August J.T.;
+RT   "The disulfide structure of mouse lysosome-associated membrane protein 1.";
+RL   J. Biol. Chem. 265:7419-7423(1990).
+RN   [6]
+RP   DISRUPTION PHENOTYPE.
+RX   PubMed=10212251; DOI=10.1074/jbc.274.18.12692;
+RA   Andrejewski N., Punnonen E.L., Guhde G., Tanaka Y., Luellmann-Rauch R.,
+RA   Hartmann D., von Figura K., Saftig P.;
+RT   "Normal lysosomal morphology and function in LAMP-1-deficient mice.";
+RL   J. Biol. Chem. 274:12692-12701(1999).
+RN   [7]
+RP   FUNCTION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=15121881; DOI=10.1091/mbc.e04-02-0103;
+RA   Eskelinen E.L., Schmidt C.K., Neu S., Willenborg M., Fuertes G.,
+RA   Salvador N., Tanaka Y., Luellmann-Rauch R., Hartmann D., Heeren J.,
+RA   von Figura K., Knecht E., Saftig P.;
+RT   "Disturbed cholesterol traffic but normal proteolytic function in LAMP-
+RT   1/LAMP-2 double-deficient fibroblasts.";
+RL   Mol. Biol. Cell 15:3132-3145(2004).
+RN   [8]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-252.
+RC   TISSUE=Epidermis;
+RX   PubMed=16170054; DOI=10.1074/mcp.m500203-mcp200;
+RA   Uematsu R., Furukawa J., Nakagawa H., Shinohara Y., Deguchi K., Monde K.,
+RA   Nishimura S.;
+RT   "High throughput quantitative glycomics and glycoform-focused proteomics of
+RT   murine dermis and epidermis.";
+RL   Mol. Cell. Proteomics 4:1977-1989(2005).
+RN   [9]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-97.
+RC   STRAIN=C57BL/6J; TISSUE=Plasma;
+RX   PubMed=16944957; DOI=10.1021/pr060186m;
+RA   Ghesquiere B., Van Damme J., Martens L., Vandekerckhove J., Gevaert K.;
+RT   "Proteome-wide characterization of N-glycosylation events by diagonal
+RT   chromatography.";
+RL   J. Proteome Res. 5:2438-2447(2006).
+RN   [10]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-177.
+RC   TISSUE=Myoblast;
+RX   PubMed=19656770; DOI=10.1074/mcp.m900195-mcp200;
+RA   Gundry R.L., Raginski K., Tarasova Y., Tchernyshyov I., Bausch-Fluck D.,
+RA   Elliott S.T., Boheler K.R., Van Eyk J.E., Wollscheid B.;
+RT   "The mouse C2C12 myoblast cell surface N-linked glycoproteome:
+RT   identification, glycosite occupancy, and membrane orientation.";
+RL   Mol. Cell. Proteomics 8:2555-2569(2009).
+RN   [11]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-97; ASN-101; ASN-159 AND
+RP   ASN-177.
+RX   PubMed=19349973; DOI=10.1038/nbt.1532;
+RA   Wollscheid B., Bausch-Fluck D., Henderson C., O'Brien R., Bibel M.,
+RA   Schiess R., Aebersold R., Watts J.D.;
+RT   "Mass-spectrometric identification and relative quantification of N-linked
+RT   cell surface glycoproteins.";
+RL   Nat. Biotechnol. 27:378-386(2009).
+RN   [12]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   TISSUE=Brain, Brown adipose tissue, Heart, Kidney, Liver, Lung,
+RC   Pancreas, Spleen, and Testis;
+RX   PubMed=21183079; DOI=10.1016/j.cell.2010.12.001;
+RA   Huttlin E.L., Jedrychowski M.P., Elias J.E., Goswami T., Rad R.,
+RA   Beausoleil S.A., Villen J., Haas W., Sowa M.E., Gygi S.P.;
+RT   "A tissue-specific atlas of mouse protein phosphorylation and expression.";
+RL   Cell 143:1174-1189(2010).
+RN   [13]
+RP   INTERACTION WITH ABCB9.
+RX   PubMed=22641697; DOI=10.1242/jcs.087346;
+RA   Demirel O., Jan I., Wolters D., Blanz J., Saftig P., Tampe R., Abele R.;
+RT   "The lysosomal polypeptide transporter TAPL is stabilized by interaction
+RT   with LAMP-1 and LAMP-2.";
+RL   J. Cell Sci. 125:4230-4240(2012).
+RN   [14]
+RP   FUNCTION, DISRUPTION PHENOTYPE, AND SUBCELLULAR LOCATION.
+RX   PubMed=23847195; DOI=10.1182/blood-2012-07-441832;
+RA   Cohnen A., Chiang S.C., Stojanovic A., Schmidt H., Claus M., Saftig P.,
+RA   Janssen O., Cerwenka A., Bryceson Y.T., Watzl C.;
+RT   "Surface CD107a/LAMP-1 protects natural killer cells from degranulation-
+RT   associated damage.";
+RL   Blood 122:1411-1418(2013).
+RN   [15]
+RP   SUBCELLULAR LOCATION.
+RX   PubMed=32839608; DOI=10.1038/s41590-020-0758-6;
+RA   Ng S.S., De Labastida Rivera F., Yan J., Corvino D., Das I., Zhang P.,
+RA   Kuns R., Chauhan S.B., Hou J., Li X.Y., Frame T.C.M., McEnroe B.A.,
+RA   Moore E., Na J., Engel J.A., Soon M.S.F., Singh B., Kueh A.J., Herold M.J.,
+RA   Montes de Oca M., Singh S.S., Bunn P.T., Aguilera A.R., Casey M., Braun M.,
+RA   Ghazanfari N., Wani S., Wang Y., Amante F.H., Edwards C.L., Haque A.,
+RA   Dougall W.C., Singh O.P., Baxter A.G., Teng M.W.L., Loukas A., Daly N.L.,
+RA   Cloonan N., Degli-Esposti M.A., Uzonna J., Heath W.R., Bald T., Tey S.K.,
+RA   Nakamura K., Hill G.R., Kumar R., Sundar S., Smyth M.J., Engwerda C.R.;
+RT   "The NK cell granule protein NKG7 regulates cytotoxic granule exocytosis
+RT   and inflammation.";
+RL   Nat. Immunol. 21:1205-1218(2020).
+RN   [16] {ECO:0007744|PDB:5GV0}
+RP   X-RAY CRYSTALLOGRAPHY (1.50 ANGSTROMS) OF 208-370, DISULFIDE BONDS, AND
+RP   GLYCOSYLATION AT ASN-219; ASN-282; ASN-296 AND ASN-311.
+RX   PubMed=27663661; DOI=10.1016/j.bbrc.2016.09.093;
+RA   Terasawa K., Tomabechi Y., Ikeda M., Ehara H., Kukimoto-Niino M.,
+RA   Wakiyama M., Podyma-Inoue K.A., Rajapakshe A.R., Watabe T., Shirouzu M.,
+RA   Hara-Yokoyama M.;
+RT   "Lysosome-associated membrane proteins-1 and -2 (LAMP-1 and LAMP-2)
+RT   assemble via distinct modes.";
+RL   Biochem. Biophys. Res. Commun. 479:489-495(2016).
+CC   -!- FUNCTION: Lysosomal membrane glycoprotein which plays an important role
+CC       in lysosome biogenesis, lysosomal pH regulation, autophagy and
+CC       cholesterol homeostasis (PubMed:15121881). Acts as an important
+CC       regulator of lysosomal lumen pH regulation by acting as a direct
+CC       inhibitor of the proton channel TMEM175, facilitating lysosomal
+CC       acidification for optimal hydrolase activity (By similarity). Also
+CC       plays an important role in NK-cells cytotoxicity (PubMed:23847195).
+CC       Mechanistically, participates in cytotoxic granule movement to the cell
+CC       surface and perforin trafficking to the lytic granule (By similarity).
+CC       In addition, protects NK-cells from degranulation-associated damage
+CC       induced by their own cytotoxic granule content (PubMed:23847195).
+CC       Presents carbohydrate ligands to selectins (By similarity). Also
+CC       implicated in tumor cell metastasis (PubMed:2676155).
+CC       {ECO:0000250|UniProtKB:P11279, ECO:0000269|PubMed:15121881,
+CC       ECO:0000269|PubMed:23847195, ECO:0000269|PubMed:2676155}.
+CC   -!- SUBUNIT: Interacts with ABCB9; this interaction strongly stabilizes
+CC       ABCB9 and protects ABCB9 against lysosomal degradation
+CC       (PubMed:22641697). Interacts with FURIN (By similarity). Interacts with
+CC       TMEM175; inhibiting the proton channel activity of TMEM175 (By
+CC       similarity). {ECO:0000250|UniProtKB:P11279,
+CC       ECO:0000269|PubMed:22641697}.
+CC   -!- SUBCELLULAR LOCATION: Lysosome membrane {ECO:0000250|UniProtKB:P11279};
+CC       Single-pass type I membrane protein {ECO:0000255}. Endosome membrane
+CC       {ECO:0000250|UniProtKB:P11279}; Single-pass type I membrane protein
+CC       {ECO:0000255}. Late endosome membrane {ECO:0000250|UniProtKB:P11279};
+CC       Single-pass type I membrane protein {ECO:0000255}. Cell membrane
+CC       {ECO:0000269|PubMed:23847195}; Single-pass type I membrane protein
+CC       {ECO:0000255}. Cytolytic granule membrane
+CC       {ECO:0000305|PubMed:32839608}; Single-pass type I membrane protein
+CC       {ECO:0000255}. Note=This protein shuttles between lysosomes, endosomes,
+CC       and the plasma membrane (By similarity). Colocalizes with OSBPL1A at
+CC       the late endosome (By similarity). {ECO:0000250|UniProtKB:P05300,
+CC       ECO:0000250|UniProtKB:P11279}.
+CC   -!- PTM: O- and N-glycosylated; some of the N-glycans attached to LAMP-1
+CC       are polylactosaminoglycans. {ECO:0000250|UniProtKB:P11279}.
+CC   -!- DISRUPTION PHENOTYPE: Deficient mice are viable and fertile
+CC       (PubMed:10212251). However, mice deficient in both Lamp1 and Lamp2 are
+CC       embryonic lethal, with the accumulation of autophagic vacuoles in many
+CC       tissues (PubMed:15121881). In addition, LAMP1 deletion results in
+CC       increased NK-cell apoptosis upon target cell-induced degranulation
+CC       (PubMed:23847195). {ECO:0000269|PubMed:10212251,
+CC       ECO:0000269|PubMed:15121881, ECO:0000269|PubMed:23847195}.
+CC   -!- SIMILARITY: Belongs to the LAMP family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00740}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M32015; AAA39428.1; -; mRNA.
+DR   EMBL; M25244; AAA39869.1; -; mRNA.
+DR   EMBL; BC049097; AAH49097.1; -; mRNA.
+DR   EMBL; J03881; AAA39411.1; -; mRNA.
+DR   CCDS; CCDS22106.1; -.
+DR   PIR; A28067; A28067.
+DR   PIR; A60534; A60534.
+DR   RefSeq; NP_001304282.1; NM_001317353.1.
+DR   RefSeq; NP_034814.2; NM_010684.3.
+DR   PDB; 5GV0; X-ray; 1.50 A; A=208-370.
+DR   PDBsum; 5GV0; -.
+DR   AlphaFoldDB; P11438; -.
+DR   SMR; P11438; -.
+DR   BioGRID; 201105; 5.
+DR   FunCoup; P11438; 2213.
+DR   IntAct; P11438; 19.
+DR   MINT; P11438; -.
+DR   STRING; 10090.ENSMUSP00000033824; -.
+DR   GlyConnect; 2494; 22 N-Linked glycans (8 sites).
+DR   GlyCosmos; P11438; 19 sites, 21 glycans.
+DR   GlyGen; P11438; 21 sites, 38 N-linked glycans (16 sites), 1 O-linked glycan (1 site).
+DR   iPTMnet; P11438; -.
+DR   PhosphoSitePlus; P11438; -.
+DR   SwissPalm; P11438; -.
+DR   CPTAC; non-CPTAC-3834; -.
+DR   jPOST; P11438; -.
+DR   PaxDb; 10090-ENSMUSP00000033824; -.
+DR   PeptideAtlas; P11438; -.
+DR   ProteomicsDB; 264913; -.
+DR   Pumba; P11438; -.
+DR   Antibodypedia; 2703; 1494 antibodies from 51 providers.
+DR   DNASU; 16783; -.
+DR   Ensembl; ENSMUST00000033824.8; ENSMUSP00000033824.7; ENSMUSG00000031447.8.
+DR   GeneID; 16783; -.
+DR   KEGG; mmu:16783; -.
+DR   UCSC; uc009kxa.1; mouse.
+DR   AGR; MGI:96745; -.
+DR   CTD; 3916; -.
+DR   MGI; MGI:96745; Lamp1.
+DR   VEuPathDB; HostDB:ENSMUSG00000031447; -.
+DR   eggNOG; KOG4818; Eukaryota.
+DR   GeneTree; ENSGT00950000182899; -.
+DR   HOGENOM; CLU_055379_2_0_1; -.
+DR   InParanoid; P11438; -.
+DR   OMA; SSNQIHM; -.
+DR   OrthoDB; 10037042at2759; -.
+DR   PhylomeDB; P11438; -.
+DR   Reactome; R-MMU-6798695; Neutrophil degranulation.
+DR   BioGRID-ORCS; 16783; 2 hits in 76 CRISPR screens.
+DR   CD-CODE; 8F289D40; ELVA.
+DR   PRO; PR:P11438; -.
+DR   Proteomes; UP000000589; Chromosome 8.
+DR   RNAct; P11438; protein.
+DR   Bgee; ENSMUSG00000031447; Expressed in stroma of bone marrow and 270 other cell types or tissues.
+DR   ExpressionAtlas; P11438; baseline and differential.
+DR   GO; GO:0097208; C:alveolar lamellar body; ISO:GO_Central.
+DR   GO; GO:0044754; C:autolysosome; IDA:MGI.
+DR   GO; GO:0000421; C:autophagosome membrane; IDA:MGI.
+DR   GO; GO:0009986; C:cell surface; IDA:BHF-UCL.
+DR   GO; GO:0044194; C:cytolytic granule; IDA:UniProtKB.
+DR   GO; GO:0101004; C:cytolytic granule membrane; ISS:UniProtKB.
+DR   GO; GO:0005737; C:cytoplasm; ISO:MGI.
+DR   GO; GO:0005829; C:cytosol; IEA:GOC.
+DR   GO; GO:0030425; C:dendrite; ISO:GO_Central.
+DR   GO; GO:0005768; C:endosome; IDA:MGI.
+DR   GO; GO:0010008; C:endosome membrane; ISS:UniProtKB.
+DR   GO; GO:0009897; C:external side of plasma membrane; IDA:MGI.
+DR   GO; GO:0098978; C:glutamatergic synapse; ISO:GO_Central.
+DR   GO; GO:0005770; C:late endosome; IDA:MGI.
+DR   GO; GO:0031902; C:late endosome membrane; IBA:GO_Central.
+DR   GO; GO:0005765; C:lysosomal membrane; ISO:GO_Central.
+DR   GO; GO:0005764; C:lysosome; IDA:MGI.
+DR   GO; GO:0042470; C:melanosome; IDA:MGI.
+DR   GO; GO:0005771; C:multivesicular body; IDA:MGI.
+DR   GO; GO:0043025; C:neuronal cell body; ISO:GO_Central.
+DR   GO; GO:0048471; C:perinuclear region of cytoplasm; ISO:GO_Central.
+DR   GO; GO:0045335; C:phagocytic vesicle; IMP:AgBase.
+DR   GO; GO:0061474; C:phagolysosome membrane; IDA:MGI.
+DR   GO; GO:0005886; C:plasma membrane; ISO:GO_Central.
+DR   GO; GO:0098794; C:postsynapse; ISO:GO_Central.
+DR   GO; GO:0042383; C:sarcolemma; IDA:MGI.
+DR   GO; GO:0008021; C:synaptic vesicle; IDA:MGI.
+DR   GO; GO:0030672; C:synaptic vesicle membrane; ISO:GO_Central.
+DR   GO; GO:0031982; C:vesicle; IDA:MGI.
+DR   GO; GO:0019899; F:enzyme binding; ISO:GO_Central.
+DR   GO; GO:0008200; F:ion channel inhibitor activity; ISS:UniProtKB.
+DR   GO; GO:0019904; F:protein domain specific binding; IPI:UniProtKB.
+DR   GO; GO:0048102; P:autophagic cell death; ISO:GO_Central.
+DR   GO; GO:0072594; P:establishment of protein localization to organelle; ISO:GO_Central.
+DR   GO; GO:0090160; P:Golgi to lysosome transport; ISO:GO_Central.
+DR   GO; GO:0140507; P:granzyme-mediated programmed cell death signaling pathway; IEA:Ensembl.
+DR   GO; GO:0007042; P:lysosomal lumen acidification; ISS:UniProtKB.
+DR   GO; GO:0035752; P:lysosomal lumen pH elevation; ISO:GO_Central.
+DR   GO; GO:0043323; P:positive regulation of natural killer cell degranulation; ISO:GO_Central.
+DR   GO; GO:0045954; P:positive regulation of natural killer cell mediated cytotoxicity; ISO:GO_Central.
+DR   GO; GO:0050821; P:protein stabilization; IMP:UniProtKB.
+DR   GO; GO:1902600; P:proton transmembrane transport; ISO:GO_Central.
+DR   GO; GO:1902513; P:regulation of organelle transport along microtubule; ISO:GO_Central.
+DR   GO; GO:0007283; P:spermatogenesis; TAS:MGI.
+DR   CDD; cd12087; TM_EGFR-like; 1.
+DR   FunFam; 2.40.160.110:FF:000005; Lysosome-associated membrane glycoprotein 1; 1.
+DR   FunFam; 2.40.160.110:FF:000001; lysosome-associated membrane glycoprotein 2 isoform X2; 1.
+DR   Gene3D; 2.40.160.110; -; 2.
+DR   InterPro; IPR048528; Lamp2-like_luminal.
+DR   InterPro; IPR048524; Lamp2-like_TM.
+DR   InterPro; IPR018134; LAMP_CS.
+DR   InterPro; IPR002000; Lysosome-assoc_membr_glycop.
+DR   PANTHER; PTHR11506; LYSOSOME-ASSOCIATED MEMBRANE GLYCOPROTEIN; 1.
+DR   PANTHER; PTHR11506:SF27; LYSOSOME-ASSOCIATED MEMBRANE GLYCOPROTEIN 1; 1.
+DR   Pfam; PF01299; Lamp2-like_luminal; 2.
+DR   Pfam; PF21222; Lamp2_2nd; 1.
+DR   PRINTS; PR00336; LYSASSOCTDMP.
+DR   PROSITE; PS00310; LAMP_1; 2.
+DR   PROSITE; PS00311; LAMP_2; 1.
+DR   PROSITE; PS51407; LAMP_3; 1.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Direct protein sequencing; Disulfide bond;
+KW   Endosome; Glycoprotein; Lysosome; Membrane; Reference proteome; Signal;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..24
+FT                   /evidence="ECO:0000269|PubMed:3379044"
+FT   CHAIN           25..406
+FT                   /note="Lysosome-associated membrane glycoprotein 1"
+FT                   /id="PRO_0000017105"
+FT   TOPO_DOM        25..370
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        371..394
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00740"
+FT   TOPO_DOM        395..406
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00740"
+FT   REGION          25..188
+FT                   /note="First lumenal domain"
+FT   REGION          180..207
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          189..218
+FT                   /note="Hinge"
+FT   REGION          219..370
+FT                   /note="Second lumenal domain"
+FT   COMPBIAS        193..205
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        31
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        52
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        58
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        70
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        78
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        97
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:16944957,
+FT                   ECO:0000269|PubMed:19349973"
+FT   CARBOHYD        101
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:19349973"
+FT   CARBOHYD        115
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        159
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:19349973"
+FT   CARBOHYD        177
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:19349973,
+FT                   ECO:0000269|PubMed:19656770"
+FT   CARBOHYD        214
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        219
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:27663661,
+FT                   ECO:0007744|PDB:5GV0"
+FT   CARBOHYD        232
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        240
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        252
+FT                   /note="N-linked (GlcNAc...) (high mannose) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:16170054"
+FT   CARBOHYD        282
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:27663661,
+FT                   ECO:0007744|PDB:5GV0"
+FT   CARBOHYD        296
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:27663661,
+FT                   ECO:0007744|PDB:5GV0"
+FT   CARBOHYD        311
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:27663661,
+FT                   ECO:0007744|PDB:5GV0"
+FT   DISULFID        35..74
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00740,
+FT                   ECO:0000269|PubMed:2332434"
+FT   DISULFID        149..185
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00740,
+FT                   ECO:0000269|PubMed:2332434"
+FT   DISULFID        222..259
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00740,
+FT                   ECO:0000269|PubMed:2332434, ECO:0000269|PubMed:27663661,
+FT                   ECO:0007744|PDB:5GV0"
+FT   DISULFID        327..364
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00740,
+FT                   ECO:0000269|PubMed:2332434, ECO:0000269|PubMed:27663661,
+FT                   ECO:0007744|PDB:5GV0"
+FT   CONFLICT        1..10
+FT                   /note="MAAPGARRPL -> MRPPRAAAV (in Ref. 2)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        25..26
+FT                   /note="LF -> IP (in Ref. 4; AAA39411)"
+FT                   /evidence="ECO:0000305"
+FT   CONFLICT        385
+FT                   /note="V -> I (in Ref. 2 and 4)"
+FT                   /evidence="ECO:0000305"
+FT   STRAND          211..217
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   STRAND          220..237
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   STRAND          242..248
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   STRAND          253..258
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   STRAND          261..270
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   STRAND          273..281
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   TURN            283..285
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   STRAND          287..298
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   STRAND          302..304
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   STRAND          306..311
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   STRAND          316..320
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   STRAND          323..327
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   STRAND          331..336
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   STRAND          339..351
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   STRAND          360..363
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+FT   HELIX           365..367
+FT                   /evidence="ECO:0007829|PDB:5GV0"
+SQ   SEQUENCE   406 AA;  43865 MW;  C1BD373548BB9655 CRC64;
+     MAAPGARRPL LLLLLAGLAH GASALFEVKN NGTTCIMASF SASFLTTYET ANGSQIVNIS
+     LPASAEVLKN GSSCGKENVS DPSLTITFGR GYLLTLNFTK NTTRYSVQHM YFTYNLSDTE
+     HFPNAISKEI YTMDSTTDIK ADINKAYRCV SDIRVYMKNV TVVLRDATIQ AYLSSGNFSK
+     EETHCTQDGP SPTTGPPSPS PPLVPTNPTV SKYNVTGNNG TCLLASMALQ LNITYLKKDN
+     KTVTRAFNIS PNDTSSGSCG INLVTLKVEN KNRALELQFG MNASSSLFFL QGVRLNMTLP
+     DALVPTFSIS NHSLKALQAT VGNSYKCNTE EHIFVSKMLS LNVFSVQVQA FKVDSDRFGS
+     VEECVQDGNN MLIPIAVGGA LAGLVLIVLI AYLIGRKRSH AGYQTI
+//
+ID   PGP1_CAEEL              Reviewed;        1321 AA.
+AC   P34712; Q21349;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   28-MAR-2003, sequence version 2.
+DT   28-JAN-2026, entry version 178.
+DE   RecName: Full=Multidrug resistance protein pgp-1;
+DE            EC=7.6.2.2;
+DE   AltName: Full=P-glycoprotein A;
+DE   AltName: Full=P-glycoprotein-related protein 1;
+GN   Name=pgp-1; ORFNames=K08E7.9;
+OS   Caenorhabditis elegans.
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditina; Rhabditomorpha; Rhabditoidea; Rhabditidae; Peloderinae;
+OC   Caenorhabditis.
+OX   NCBI_TaxID=6239;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Bristol N2;
+RX   PubMed=1360540; DOI=10.1016/0022-2836(92)90855-e;
+RA   Lincke C.R., The I., van Groenigen M., Borst P.;
+RT   "The P-glycoprotein gene family of Caenorhabditis elegans. Cloning and
+RT   characterization of genomic and complementary DNA sequences.";
+RL   J. Mol. Biol. 228:701-711(1992).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Bristol N2;
+RX   PubMed=9851916; DOI=10.1126/science.282.5396.2012;
+RG   The C. elegans sequencing consortium;
+RT   "Genome sequence of the nematode C. elegans: a platform for investigating
+RT   biology.";
+RL   Science 282:2012-2018(1998).
+RN   [3]
+RP   TISSUE SPECIFICITY.
+RC   STRAIN=Bristol N2;
+RX   PubMed=8096815; DOI=10.1002/j.1460-2075.1993.tb05806.x;
+RA   Lincke C.R., Broeks A., The I., Plasterk H.A., Borst P.;
+RT   "The expression of two P-glycoprotein (pgp) genes in transgenic
+RT   Caenorhabditis elegans is confined to intestinal cells.";
+RL   EMBO J. 12:1615-1620(1993).
+CC   -!- FUNCTION: Energy-dependent efflux pump responsible for decreased drug
+CC       accumulation in multidrug-resistant cells.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=ATP + H2O + xenobioticSide 1 = ADP + phosphate +
+CC         xenobioticSide 2.; EC=7.6.2.2;
+CC   -!- SUBCELLULAR LOCATION: Membrane; Multi-pass membrane protein.
+CC   -!- TISSUE SPECIFICITY: Intestinal cells. {ECO:0000269|PubMed:8096815}.
+CC   -!- SIMILARITY: Belongs to the ABC transporter superfamily. ABCB family.
+CC       Multidrug resistance exporter (TC 3.A.1.201) subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; X65054; CAA46190.1; -; Genomic_DNA.
+DR   EMBL; Z77666; CAB01232.1; -; Genomic_DNA.
+DR   PIR; S27337; S27337.
+DR   PIR; T23476; T23476.
+DR   RefSeq; NP_502413.1; NM_070012.6.
+DR   PDB; 4F4C; X-ray; 3.40 A; A=1-1321.
+DR   PDBsum; 4F4C; -.
+DR   AlphaFoldDB; P34712; -.
+DR   SMR; P34712; -.
+DR   FunCoup; P34712; 239.
+DR   STRING; 6239.K08E7.9.1; -.
+DR   TCDB; 3.A.1.201.14; the atp-binding cassette (abc) superfamily.
+DR   GlyCosmos; P34712; 4 sites, No reported glycans.
+DR   iPTMnet; P34712; -.
+DR   PaxDb; 6239-K08E7.9; -.
+DR   PeptideAtlas; P34712; -.
+DR   EnsemblMetazoa; K08E7.9.1; K08E7.9.1; WBGene00003995.
+DR   GeneID; 178215; -.
+DR   KEGG; cel:CELE_K08E7.9; -.
+DR   UCSC; K08E7.9; c. elegans.
+DR   AGR; WB:WBGene00003995; -.
+DR   CTD; 178215; -.
+DR   WormBase; K08E7.9; CE11932; WBGene00003995; pgp-1.
+DR   eggNOG; KOG0055; Eukaryota.
+DR   HOGENOM; CLU_000604_17_2_1; -.
+DR   InParanoid; P34712; -.
+DR   OMA; VNGWIQM; -.
+DR   OrthoDB; 6500128at2759; -.
+DR   PhylomeDB; P34712; -.
+DR   BRENDA; 7.6.2.2; 1045.
+DR   EvolutionaryTrace; P34712; -.
+DR   PRO; PR:P34712; -.
+DR   Proteomes; UP000001940; Chromosome IV.
+DR   Bgee; WBGene00003995; Expressed in adult organism and 3 other cell types or tissues.
+DR   GO; GO:0016324; C:apical plasma membrane; IDA:WormBase.
+DR   GO; GO:0016020; C:membrane; IBA:GO_Central.
+DR   GO; GO:0008559; F:ABC-type xenobiotic transporter activity; IEA:UniProtKB-EC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0016887; F:ATP hydrolysis activity; IEA:InterPro.
+DR   GO; GO:0042626; F:ATPase-coupled transmembrane transporter activity; IBA:GO_Central.
+DR   GO; GO:0015562; F:efflux transmembrane transporter activity; ISS:WormBase.
+DR   GO; GO:0050829; P:defense response to Gram-negative bacterium; IGI:WormBase.
+DR   GO; GO:0045087; P:innate immune response; IGI:WormBase.
+DR   GO; GO:0010038; P:response to metal ion; IGI:WormBase.
+DR   GO; GO:0093002; P:response to nematicide; IEP:WormBase.
+DR   GO; GO:0055085; P:transmembrane transport; IBA:GO_Central.
+DR   CDD; cd18577; ABC_6TM_Pgp_ABCB1_D1_like; 1.
+DR   CDD; cd18578; ABC_6TM_Pgp_ABCB1_D2_like; 1.
+DR   CDD; cd03249; ABC_MTABC3_MDL1_MDL2; 2.
+DR   DisProt; DP03069; -.
+DR   FunFam; 3.40.50.300:FF:000916; ABC transporter B family member 9; 2.
+DR   FunFam; 1.20.1560.10:FF:000018; ATP-binding cassette subfamily B member 11; 1.
+DR   Gene3D; 1.20.1560.10; ABC transporter type 1, transmembrane domain; 2.
+DR   Gene3D; 3.40.50.300; P-loop containing nucleotide triphosphate hydrolases; 2.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR011527; ABC1_TM_dom.
+DR   InterPro; IPR036640; ABC1_TM_sf.
+DR   InterPro; IPR003439; ABC_transporter-like_ATP-bd.
+DR   InterPro; IPR017871; ABC_transporter-like_CS.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR039421; Type_1_exporter.
+DR   PANTHER; PTHR43394; ATP-DEPENDENT PERMEASE MDL1, MITOCHONDRIAL; 1.
+DR   PANTHER; PTHR43394:SF27; ATP-DEPENDENT TRANSLOCASE ABCB1-LIKE; 1.
+DR   Pfam; PF00664; ABC_membrane; 2.
+DR   Pfam; PF00005; ABC_tran; 2.
+DR   SMART; SM00382; AAA; 2.
+DR   SUPFAM; SSF90123; ABC transporter transmembrane region; 2.
+DR   SUPFAM; SSF52540; P-loop containing nucleoside triphosphate hydrolases; 2.
+DR   PROSITE; PS50929; ABC_TM1F; 2.
+DR   PROSITE; PS00211; ABC_TRANSPORTER_1; 2.
+DR   PROSITE; PS50893; ABC_TRANSPORTER_2; 2.
+PE   1: Evidence at protein level;
+KW   3D-structure; ATP-binding; Glycoprotein; Membrane; Nucleotide-binding;
+KW   Reference proteome; Repeat; Translocase; Transmembrane;
+KW   Transmembrane helix; Transport.
+FT   CHAIN           1..1321
+FT                   /note="Multidrug resistance protein pgp-1"
+FT                   /id="PRO_0000093342"
+FT   TOPO_DOM        1..77
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        78..98
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        144..164
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        213..233
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        240..260
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        321..341
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        350..370
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        371..753
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        754..774
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        798..818
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        874..894
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        895..915
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        978..998
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TRANSMEM        1017..1037
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   TOPO_DOM        1038..1321
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          77..381
+FT                   /note="ABC transmembrane type-1 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   DOMAIN          416..652
+FT                   /note="ABC transporter 1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   DOMAIN          754..1043
+FT                   /note="ABC transmembrane type-1 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00441"
+FT   DOMAIN          1077..1315
+FT                   /note="ABC transporter 2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   BINDING         451..458
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="1"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   BINDING         1112..1119
+FT                   /ligand="ATP"
+FT                   /ligand_id="ChEBI:CHEBI:30616"
+FT                   /ligand_label="2"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00434"
+FT   CARBOHYD        115
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        125
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        190
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        850
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CONFLICT        156
+FT                   /note="T -> I (in Ref. 1; CAA46190)"
+FT                   /evidence="ECO:0000305"
+FT   HELIX           5..16
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           21..33
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            37..39
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          42..44
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           62..65
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            66..68
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           71..88
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           90..113
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           128..179
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           184..189
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           195..208
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           212..234
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           236..243
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           246..283
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           285..290
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           294..345
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            346..348
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           352..392
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            393..395
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          402..404
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          416..423
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          426..428
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          433..441
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          446..451
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          453..455
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           457..464
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          471..477
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            482..484
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           487..493
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          494..497
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          505..507
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           508..513
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           521..530
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           534..539
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            541..544
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          545..552
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           557..569
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          574..580
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            581..584
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            587..589
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           590..601
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          604..609
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            613..618
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          620..626
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          629..634
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           636..640
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            641..643
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           645..663
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           722..728
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            729..732
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           740..746
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           747..750
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           751..763
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           764..766
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           767..781
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            788..792
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           793..838
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          842..844
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           848..850
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           852..860
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           862..867
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            868..870
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           872..894
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           896..916
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            925..927
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           930..943
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           945..950
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            951..953
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           954..986
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           989..1003
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          1006..1009
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           1014..1025
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            1026..1028
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           1033..1036
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           1037..1056
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          1077..1084
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          1094..1102
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          1107..1111
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           1121..1125
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          1132..1138
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            1143..1145
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           1148..1152
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          1155..1158
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          1166..1168
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           1169..1173
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          1174..1177
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            1179..1181
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           1184..1193
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           1197..1201
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            1204..1207
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          1209..1211
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            1212..1214
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           1220..1233
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          1237..1243
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           1251..1260
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            1261..1263
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          1264..1272
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          1274..1277
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   TURN            1278..1281
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   STRAND          1283..1297
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+FT   HELIX           1299..1304
+FT                   /evidence="ECO:0007829|PDB:4F4C"
+SQ   SEQUENCE   1321 AA;  145063 MW;  68094121B30E8746 CRC64;
+     MLRNGSLRQS LRTLDSFSLA PEDVLKTAIK TVEDYEGDNI DSNGEIKITR DAKEEVVNKV
+     SIPQLYRYTT TLEKLLLFIG TLVAVITGAG LPLMSILQGK VSQAFINEQI VINNNGSTFL
+     PTGQNYTKTD FEHDVMNVVW SYAAMTVGMW AAGQITVTCY LYVAEQMNNR LRREFVKSIL
+     RQEISWFDTN HSGTLATKLF DNLERVKEGT GDKIGMAFQY LSQFITGFIV AFTHSWQLTL
+     VMLAVTPIQA LCGFAIAKSM STFAIRETLR YAKAGKVVEE TISSIRTVVS LNGLRYELER
+     YSTAVEEAKK AGVLKGLFLG ISFGAMQASN FISFALAFYI GVGWVHDGSL NFGDMLTTFS
+     SVMMGSMALG LAGPQLAVLG TAQGAASGIY EVLDRKPVID SSSKAGRKDM KIKGDITVEN
+     VHFTYPSRPD VPILRGMNLR VNAGQTVALV GSSGCGKSTI ISLLLRYYDV LKGKITIDGV
+     DVRDINLEFL RKNVAVVSQE PALFNCTIEE NISLGKEGIT REEMVAACKM ANAEKFIKTL
+     PNGYNTLVGD RGTQLSGGQK QRIAIARALV RNPKILLLDE ATSALDAESE GIVQQALDKA
+     AKGRTTIIIA HRLSTIRNAD LIISCKNGQV VEVGDHRALM AQQGLYYDLV TAQTFTDAVD
+     SAAEGKFSRE NSVARQTSEH EGLSRQASEM DDIMNRVRSS TIGSITNGPV IDEKEERIGK
+     DALSRLKQEL EENNAQKTNL FEILYHARPH ALSLFIGMST ATIGGFIYPT YSVFFTSFMN
+     VFAGNPADFL SQGHFWALMF LVLAAAQGIC SFLMTFFMGI ASESLTRDLR NKLFRNVLSQ
+     HIGFFDSPQN ASGKISTRLA TDVPNLRTAI DFRFSTVITT LVSMVAGIGL AFFYGWQMAL
+     LIIAILPIVA FGQYLRGRRF TGKNVKSASE FADSGKIAIE AIENVRTVQA LAREDTFYEN
+     FCEKLDIPHK EAIKEAFIQG LSYGCASSVL YLLNTCAYRM GLALIITDPP TMQPMRVLRV
+     MYAITISTST LGFATSYFPE YAKATFAGGI IFGMLRKISK IDSLSLAGEK KKLYGKVIFK
+     NVRFAYPERP EIEILKGLSF SVEPGQTLAL VGPSGCGKST VVALLERFYD TLGGEIFIDG
+     SEIKTLNPEH TRSQIAIVSQ EPTLFDCSIA ENIIYGLDPS SVTMAQVEEA ARLANIHNFI
+     AELPEGFETR VGDRGTQLSG GQKQRIAIAR ALVRNPKILL LDEATSALDT ESEKVVQEAL
+     DRAREGRTCI VIAHRLNTVM NADCIAVVSN GTIIEKGTHT QLMSEKGAYY KLTQKQMTEK
+     K
+//
+ID   LAMP1_CRIGR             Reviewed;         407 AA.
+AC   P49129;
+DT   01-FEB-1996, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1996, sequence version 1.
+DT   28-JAN-2026, entry version 99.
+DE   RecName: Full=Lysosome-associated membrane glycoprotein 1;
+DE            Short=LAMP-1;
+DE            Short=Lysosome-associated membrane protein 1;
+DE   AltName: Full=CD107 antigen-like family member A;
+DE   AltName: Full=Lysosomal membrane glycoprotein A;
+DE            Short=LGP-A;
+DE   AltName: CD_antigen=CD107a;
+DE   Flags: Precursor;
+GN   Name=LAMP1; Synonyms=LGPA;
+OS   Cricetulus griseus (Chinese hamster) (Cricetulus barabensis griseus).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha; Muroidea;
+OC   Cricetidae; Cricetinae; Cricetulus.
+OX   NCBI_TaxID=10029;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=8867788;
+RA   Uthayakumar S., Granger B.L.;
+RT   "Cell surface accumulation of overexpressed hamster lysosomal membrane
+RT   glycoproteins.";
+RL   Cell. Mol. Biol. Res. 41:405-420(1995).
+CC   -!- FUNCTION: Lysosomal membrane glycoprotein which plays an important role
+CC       in lysosome biogenesis, lysosomal pH regulation, autophagy and
+CC       cholesterol homeostasis. Acts as an important regulator of lysosomal
+CC       lumen pH regulation by acting as a direct inhibitor of the proton
+CC       channel TMEM175, facilitating lysosomal acidification for optimal
+CC       hydrolase activity. Also plays an important role in NK-cells
+CC       cytotoxicity. Mechanistically, participates in cytotoxic granule
+CC       movement to the cell surface and perforin trafficking to the lytic
+CC       granule. In addition, protects NK-cells from degranulation-associated
+CC       damage induced by their own cytotoxic granule content. Presents
+CC       carbohydrate ligands to selectins. {ECO:0000250|UniProtKB:P11279}.
+CC   -!- SUBUNIT: Interacts with ABCB9; this interaction strongly stabilizes
+CC       ABCB9 and protects ABCB9 against lysosomal degradation. Interacts with
+CC       FURIN. Interacts with TMEM175; inhibiting the proton channel activity
+CC       of TMEM175. {ECO:0000250|UniProtKB:P11279}.
+CC   -!- SUBCELLULAR LOCATION: Lysosome membrane {ECO:0000250|UniProtKB:P11279};
+CC       Single-pass type I membrane protein {ECO:0000255}. Endosome membrane
+CC       {ECO:0000250|UniProtKB:P11279}; Single-pass type I membrane protein
+CC       {ECO:0000255}. Late endosome membrane {ECO:0000250|UniProtKB:P11279};
+CC       Single-pass type I membrane protein {ECO:0000255}. Cell membrane
+CC       {ECO:0000250|UniProtKB:P11279}; Single-pass type I membrane protein
+CC       {ECO:0000255}. Cytolytic granule membrane
+CC       {ECO:0000250|UniProtKB:P11279}; Single-pass type I membrane protein
+CC       {ECO:0000255}. Note=This protein shuttles between lysosomes, endosomes,
+CC       and the plasma membrane (By similarity). Colocalizes with OSBPL1A at
+CC       the late endosome (By similarity). {ECO:0000250|UniProtKB:P05300,
+CC       ECO:0000250|UniProtKB:P11279}.
+CC   -!- PTM: O- and N-glycosylated; some of the N-glycans attached to LAMP-1
+CC       are polylactosaminoglycans. {ECO:0000250|UniProtKB:P11279}.
+CC   -!- SIMILARITY: Belongs to the LAMP family. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00740}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; L18986; AAC37682.1; -; mRNA.
+DR   RefSeq; NP_001233759.1; NM_001246830.1.
+DR   AlphaFoldDB; P49129; -.
+DR   SMR; P49129; -.
+DR   IntAct; P49129; 1.
+DR   MINT; P49129; -.
+DR   GlyCosmos; P49129; 21 sites, No reported glycans.
+DR   PaxDb; 10029-NP_001233759.1; -.
+DR   Ensembl; ENSCGRT00001007016; ENSCGRP00001004655; ENSCGRG00001005956.
+DR   GeneID; 100689406; -.
+DR   KEGG; cge:100689406; -.
+DR   CTD; 3916; -.
+DR   eggNOG; KOG4818; Eukaryota.
+DR   OrthoDB; 10037042at2759; -.
+DR   Proteomes; UP000694386; Unplaced.
+DR   Proteomes; UP001108280; Chromosome 1.
+DR   GO; GO:0101004; C:cytolytic granule membrane; ISS:UniProtKB.
+DR   GO; GO:0010008; C:endosome membrane; ISS:UniProtKB.
+DR   GO; GO:0031902; C:late endosome membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005765; C:lysosomal membrane; ISS:UniProtKB.
+DR   GO; GO:0005764; C:lysosome; IDA:MGI.
+DR   GO; GO:0005886; C:plasma membrane; ISS:UniProtKB.
+DR   GO; GO:0008200; F:ion channel inhibitor activity; ISS:UniProtKB.
+DR   GO; GO:0072594; P:establishment of protein localization to organelle; IEA:TreeGrafter.
+DR   GO; GO:0007042; P:lysosomal lumen acidification; ISS:UniProtKB.
+DR   GO; GO:0050821; P:protein stabilization; ISS:CAFA.
+DR   CDD; cd12087; TM_EGFR-like; 1.
+DR   FunFam; 2.40.160.110:FF:000005; Lysosome-associated membrane glycoprotein 1; 1.
+DR   FunFam; 2.40.160.110:FF:000001; lysosome-associated membrane glycoprotein 2 isoform X2; 1.
+DR   Gene3D; 2.40.160.110; -; 2.
+DR   InterPro; IPR048528; Lamp2-like_luminal.
+DR   InterPro; IPR048524; Lamp2-like_TM.
+DR   InterPro; IPR018134; LAMP_CS.
+DR   InterPro; IPR002000; Lysosome-assoc_membr_glycop.
+DR   PANTHER; PTHR11506; LYSOSOME-ASSOCIATED MEMBRANE GLYCOPROTEIN; 1.
+DR   PANTHER; PTHR11506:SF27; LYSOSOME-ASSOCIATED MEMBRANE GLYCOPROTEIN 1; 1.
+DR   Pfam; PF01299; Lamp2-like_luminal; 2.
+DR   Pfam; PF21222; Lamp2_2nd; 1.
+DR   PRINTS; PR00336; LYSASSOCTDMP.
+DR   PROSITE; PS00310; LAMP_1; 2.
+DR   PROSITE; PS00311; LAMP_2; 1.
+DR   PROSITE; PS51407; LAMP_3; 1.
+PE   2: Evidence at transcript level;
+KW   Cell membrane; Disulfide bond; Endosome; Glycoprotein; Lysosome; Membrane;
+KW   Reference proteome; Signal; Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..21
+FT                   /evidence="ECO:0000250|UniProtKB:P14562"
+FT   CHAIN           22..407
+FT                   /note="Lysosome-associated membrane glycoprotein 1"
+FT                   /id="PRO_0000017108"
+FT   TOPO_DOM        22..371
+FT                   /note="Lumenal"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        372..395
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00740"
+FT   TOPO_DOM        396..407
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00740"
+FT   REGION          22..189
+FT                   /note="First lumenal domain"
+FT   REGION          183..206
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   REGION          190..219
+FT                   /note="Hinge"
+FT   REGION          220..371
+FT                   /note="Second lumenal domain"
+FT   COMPBIAS        194..206
+FT                   /note="Pro residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        32
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        40
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        57
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        72
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        79
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        98
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        102
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        116
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        125
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        145
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        160
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        178
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        215
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        220
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        233
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        241
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        253
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        283
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        297
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        304
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        312
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        36..75
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00740"
+FT   DISULFID        150..186
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00740"
+FT   DISULFID        223..260
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00740"
+FT   DISULFID        328..365
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00740"
+SQ   SEQUENCE   407 AA;  43787 MW;  651002040F86BB3D CRC64;
+     MAAPGAPRSL LLLLLAGLAH GASALFVVKD SNGTACIMAN FSASFFTIYE TGHGSKNSTF
+     ELPSSAEVLN SNSSCGRENV SEPILTIAFG SGYLLTLNFT RNATRYSVQD MYFAYNLSDT
+     QHFLNASNKG IHSVDSSTDI KADINKTYRC LSAIQVHMGN VTVTLSDATI QAYLLNSNFS
+     KEETRCTQDG PSPTTVPPSP SPPLVPTNPT VIKYNVTGEN GTCLLASMAL QMNITYMKKD
+     NMTVTRALNI SPNDTASGSC SPHVVTLTVE SKNSILDLKF GMNGSSSLFF LQEVRLNMTL
+     PDANVSSLMA SNQSLRALQA TVGNSYKCNT EEHIFVTKEF SLNVFSVQVQ AFKVESDRFG
+     SVEECMQDGN NMLIPIAVGG ALAGLVLIVL IAYLIGRKRS HAGYQTI
+//
+ID   LRC32_HUMAN             Reviewed;         662 AA.
+AC   Q14392; Q86V06;
+DT   01-NOV-1997, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1996, sequence version 1.
+DT   28-JAN-2026, entry version 195.
+DE   RecName: Full=Transforming growth factor beta activator LRRC32 {ECO:0000305};
+DE   AltName: Full=Garpin {ECO:0000303|PubMed:8180135};
+DE   AltName: Full=Glycoprotein A repetitions predominant {ECO:0000303|PubMed:19750484, ECO:0000303|PubMed:8180135};
+DE            Short=GARP {ECO:0000303|PubMed:19750484, ECO:0000303|PubMed:8180135};
+DE   AltName: Full=Leucine-rich repeat-containing protein 32 {ECO:0000303|PubMed:19651619};
+DE   Flags: Precursor;
+GN   Name=LRRC32 {ECO:0000303|PubMed:19651619, ECO:0000312|HGNC:HGNC:4161};
+GN   Synonyms=D11S833E;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   PubMed=8180135;
+RA   Ollendorff V., Noguchi T., Delapeyriere O., Birnbaum D.;
+RT   "The GARP gene encodes a new member of the family of leucine-rich repeat-
+RT   containing proteins.";
+RL   Cell Growth Differ. 5:213-219(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Placenta;
+RX   PubMed=15489334; DOI=10.1101/gr.2596504;
+RG   The MGC Project Team;
+RT   "The status, quality, and expansion of the NIH full-length cDNA project:
+RT   the Mammalian Gene Collection (MGC).";
+RL   Genome Res. 14:2121-2127(2004).
+RN   [3]
+RP   TISSUE SPECIFICITY.
+RX   PubMed=18628982; DOI=10.1371/journal.pone.0002705;
+RA   Wang R., Wan Q., Kozhaya L., Fujii H., Unutmaz D.;
+RT   "Identification of a regulatory T cell specific cell surface molecule that
+RT   mediates suppressive signals and induces Foxp3 expression.";
+RL   PLoS ONE 3:E2705-E2705(2008).
+RN   [4]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+RX   PubMed=19750484; DOI=10.1002/eji.200939684;
+RA   Stockis J., Colau D., Coulie P.G., Lucas S.;
+RT   "Membrane protein GARP is a receptor for latent TGF-beta on the surface of
+RT   activated human Treg.";
+RL   Eur. J. Immunol. 39:3315-3322(2009).
+RN   [5]
+RP   GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-308.
+RC   TISSUE=Liver;
+RX   PubMed=19159218; DOI=10.1021/pr8008012;
+RA   Chen R., Jiang X., Sun D., Han G., Wang F., Ye M., Wang L., Zou H.;
+RT   "Glycoproteomics analysis of human liver tissue by combination of multiple
+RT   enzyme digestion and hydrazide chemistry.";
+RL   J. Proteome Res. 8:651-661(2009).
+RN   [6]
+RP   FUNCTION, SUBCELLULAR LOCATION, AND INTERACTION WITH TGFB1 AND TGFB2.
+RX   PubMed=19651619; DOI=10.1073/pnas.0901944106;
+RA   Tran D.Q., Andersson J., Wang R., Ramsey H., Unutmaz D., Shevach E.M.;
+RT   "GARP (LRRC32) is essential for the surface expression of latent TGF-beta
+RT   on platelets and activated FOXP3+ regulatory T cells.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 106:13445-13450(2009).
+RN   [7]
+RP   SIGNAL SEQUENCE CLEAVAGE SITE, AND TISSUE SPECIFICITY.
+RX   PubMed=21615933; DOI=10.1186/1471-2091-12-27;
+RA   Chan D.V., Somani A.K., Young A.B., Massari J.V., Ohtola J., Sugiyama H.,
+RA   Garaczi E., Babineau D., Cooper K.D., McCormick T.S.;
+RT   "Signal peptide cleavage is essential for surface expression of a
+RT   regulatory T cell surface protein, leucine rich repeat containing 32
+RT   (LRRC32).";
+RL   BMC Biochem. 12:27-27(2011).
+RN   [8]
+RP   FUNCTION, DISULFIDE BOND, AND MUTAGENESIS OF CYS-211; CYS-350 AND CYS-436.
+RX   PubMed=22278742; DOI=10.1091/mbc.e11-12-1018;
+RA   Wang R., Zhu J., Dong X., Shi M., Lu C., Springer T.A.;
+RT   "GARP regulates the bioavailability and activation of TGFbeta.";
+RL   Mol. Biol. Cell 23:1129-1139(2012).
+RN   [9]
+RP   INTERACTION WITH LAPTM4B.
+RX   PubMed=26126825; DOI=10.1074/jbc.m115.655340;
+RA   Huygens C., Lienart S., Dedobbeleer O., Stockis J., Gauthy E., Coulie P.G.,
+RA   Lucas S.;
+RT   "Lysosomal-associated Transmembrane Protein 4B (LAPTM4B) Decreases
+RT   Transforming Growth Factor beta1 (TGF-beta1) Production in Human Regulatory
+RT   T Cells.";
+RL   J. Biol. Chem. 290:20105-20116(2015).
+RN   [10]
+RP   INVOLVEMENT IN CPPRDD, AND VARIANT CPPRDD 544-ARG--ALA-662 DEL.
+RX   PubMed=30976112; DOI=10.1038/s41431-019-0380-y;
+RA   Harel T., Levy-Lahad E., Daana M., Mechoulam H., Horowitz-Cederboim S.,
+RA   Gur M., Meiner V., Elpeleg O.;
+RT   "Homozygous stop-gain variant in LRRC32, encoding a TGFbeta receptor,
+RT   associated with cleft palate, proliferative retinopathy, and developmental
+RT   delay.";
+RL   Eur. J. Hum. Genet. 27:1315-1319(2019).
+CC   -!- FUNCTION: Key regulator of transforming growth factor beta (TGFB1,
+CC       TGFB2 and TGFB3) that controls TGF-beta activation by maintaining it in
+CC       a latent state during storage in extracellular space (PubMed:19651619,
+CC       PubMed:19750484, PubMed:22278742). Associates specifically via
+CC       disulfide bonds with the Latency-associated peptide (LAP), which is the
+CC       regulatory chain of TGF-beta, and regulates integrin-dependent
+CC       activation of TGF-beta (PubMed:22278742). Able to outcompete LTBP1 for
+CC       binding to LAP regulatory chain of TGF-beta (PubMed:22278742). Controls
+CC       activation of TGF-beta-1 (TGFB1) on the surface of activated regulatory
+CC       T-cells (Tregs) (PubMed:19651619, PubMed:19750484). Required for
+CC       epithelial fusion during palate development by regulating activation of
+CC       TGF-beta-3 (TGFB3) (By similarity). {ECO:0000250|UniProtKB:G3XA59,
+CC       ECO:0000269|PubMed:19651619, ECO:0000269|PubMed:19750484,
+CC       ECO:0000269|PubMed:22278742}.
+CC   -!- SUBUNIT: Interacts with TGFB1; associates via disulfide bonds with the
+CC       Latency-associated peptide chain (LAP) regulatory chain of TGFB1,
+CC       leading to regulate activation of TGF-beta-1 (PubMed:19651619,
+CC       PubMed:22278742). Interacts with TGFB2 (PubMed:19651619). Interacts
+CC       with TGFB3; associates via disulfide bonds with the Latency-associated
+CC       peptide chain (LAP) regulatory chain of TGFB3, leading to regulate
+CC       activation of TGF-beta-3 (By similarity). Interacts with LAPTM4B;
+CC       decreases TGFB1 production in regulatory T-cells (PubMed:26126825).
+CC       {ECO:0000250|UniProtKB:G3XA59, ECO:0000269|PubMed:19651619,
+CC       ECO:0000269|PubMed:22278742, ECO:0000269|PubMed:26126825}.
+CC   -!- INTERACTION:
+CC       Q14392; P01137: TGFB1; NbExp=5; IntAct=EBI-15796956, EBI-779636;
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:19651619,
+CC       ECO:0000269|PubMed:19750484}; Single-pass type I membrane protein
+CC       {ECO:0000255}. Cell surface {ECO:0000269|PubMed:19651619,
+CC       ECO:0000269|PubMed:19750484}.
+CC   -!- TISSUE SPECIFICITY: Preferentially expressed in regulatory T-cells
+CC       (Tregs). {ECO:0000269|PubMed:18628982, ECO:0000269|PubMed:19750484,
+CC       ECO:0000269|PubMed:21615933}.
+CC   -!- DISEASE: Cleft palate, proliferative retinopathy, and developmental
+CC       delay (CPPRDD) [MIM:619074]: An autosomal recessive disorder
+CC       characterized by mild to severe intellectual disability with delayed or
+CC       absent speech, hypotonia, cleft palate, proliferative retinopathy, and
+CC       combined sensorineural and conductive hearing loss. Brain imaging shows
+CC       ventriculomegaly, widened subarachnoid spaces, partial agenesis of the
+CC       corpus callosum, hypoplastic cerebellar vermis, and Dandy Walker
+CC       malformation. {ECO:0000269|PubMed:30976112}. Note=The disease is caused
+CC       by variants affecting the gene represented in this entry.
+CC   -!- SIMILARITY: Belongs to the LRRC32/LRRC33 family. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH52210.2; Type=Erroneous initiation; Note=Truncated N-terminus.; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; Z24680; CAA80847.1; -; mRNA.
+DR   EMBL; BC052210; AAH52210.2; ALT_INIT; mRNA.
+DR   EMBL; BC070079; AAH70079.1; -; mRNA.
+DR   CCDS; CCDS8245.1; -.
+DR   PIR; S42799; S42799.
+DR   RefSeq; NP_001122394.1; NM_001128922.2.
+DR   RefSeq; NP_001357116.1; NM_001370187.1.
+DR   RefSeq; NP_001357117.1; NM_001370188.1.
+DR   RefSeq; NP_005503.1; NM_005512.3.
+DR   RefSeq; XP_011543237.1; XM_011544935.4.
+DR   RefSeq; XP_054224355.1; XM_054368380.1.
+DR   PDB; 6GFF; X-ray; 3.10 A; I/J=20-628.
+DR   PDB; 8C7H; EM; 2.70 A; I=20-620.
+DR   PDB; 8REW; EM; 2.98 A; E=1-628.
+DR   PDB; 8VSB; EM; 2.93 A; I=20-627.
+DR   PDB; 8VSC; EM; 3.00 A; I=20-627.
+DR   PDB; 8VSD; EM; 3.20 A; I=26-591.
+DR   PDBsum; 6GFF; -.
+DR   PDBsum; 8C7H; -.
+DR   PDBsum; 8REW; -.
+DR   PDBsum; 8VSB; -.
+DR   PDBsum; 8VSC; -.
+DR   PDBsum; 8VSD; -.
+DR   AlphaFoldDB; Q14392; -.
+DR   EMDB; EMD-16460; -.
+DR   EMDB; EMD-19110; -.
+DR   EMDB; EMD-43492; -.
+DR   EMDB; EMD-43493; -.
+DR   EMDB; EMD-43494; -.
+DR   SMR; Q14392; -.
+DR   BioGRID; 108885; 29.
+DR   DIP; DIP-48932N; -.
+DR   FunCoup; Q14392; 168.
+DR   IntAct; Q14392; 52.
+DR   STRING; 9606.ENSP00000384126; -.
+DR   GuidetoPHARMACOLOGY; 2913; -.
+DR   GlyCosmos; Q14392; 5 sites, No reported glycans.
+DR   GlyGen; Q14392; 7 sites, 8 N-linked glycans (3 sites), 1 O-linked glycan (2 sites).
+DR   iPTMnet; Q14392; -.
+DR   PhosphoSitePlus; Q14392; -.
+DR   SwissPalm; Q14392; -.
+DR   BioMuta; LRRC32; -.
+DR   DMDM; 2498405; -.
+DR   jPOST; Q14392; -.
+DR   MassIVE; Q14392; -.
+DR   PaxDb; 9606-ENSP00000384126; -.
+DR   PeptideAtlas; Q14392; -.
+DR   ProteomicsDB; 59974; -.
+DR   Antibodypedia; 45130; 337 antibodies from 30 providers.
+DR   DNASU; 2615; -.
+DR   Ensembl; ENST00000260061.9; ENSP00000260061.5; ENSG00000137507.12.
+DR   Ensembl; ENST00000404995.5; ENSP00000385766.1; ENSG00000137507.12.
+DR   Ensembl; ENST00000407242.6; ENSP00000384126.2; ENSG00000137507.12.
+DR   GeneID; 2615; -.
+DR   KEGG; hsa:2615; -.
+DR   MANE-Select; ENST00000260061.9; ENSP00000260061.5; NM_001128922.2; NP_001122394.1.
+DR   UCSC; uc001oxq.5; human.
+DR   AGR; HGNC:4161; -.
+DR   ClinPGx; PA28574; -.
+DR   CTD; 2615; -.
+DR   DisGeNET; 2615; -.
+DR   GeneCards; LRRC32; -.
+DR   HGNC; HGNC:4161; LRRC32.
+DR   HPA; ENSG00000137507; Low tissue specificity.
+DR   MalaCards; LRRC32; -.
+DR   MIM; 137207; gene.
+DR   MIM; 619074; phenotype.
+DR   OpenTargets; ENSG00000137507; -.
+DR   VEuPathDB; HostDB:ENSG00000137507; -.
+DR   eggNOG; KOG0619; Eukaryota.
+DR   GeneTree; ENSGT00940000162288; -.
+DR   HOGENOM; CLU_024194_1_0_1; -.
+DR   InParanoid; Q14392; -.
+DR   OMA; CIRRQKF; -.
+DR   OrthoDB; 8195690at2759; -.
+DR   PAN-GO; Q14392; 2 GO annotations based on evolutionary models.
+DR   PhylomeDB; Q14392; -.
+DR   PathwayCommons; Q14392; -.
+DR   SignaLink; Q14392; -.
+DR   Agora; ENSG00000137507; -.
+DR   BioGRID-ORCS; 2615; 17 hits in 1148 CRISPR screens.
+DR   ChiTaRS; LRRC32; human.
+DR   GenomeRNAi; 2615; -.
+DR   Pharos; Q14392; Tbio.
+DR   PRO; PR:Q14392; -.
+DR   Proteomes; UP000005640; Chromosome 11.
+DR   RNAct; Q14392; protein.
+DR   Bgee; ENSG00000137507; Expressed in right coronary artery and 138 other cell types or tissues.
+DR   ExpressionAtlas; Q14392; baseline and differential.
+DR   GO; GO:0009986; C:cell surface; IDA:UniProtKB.
+DR   GO; GO:0005654; C:nucleoplasm; IDA:HPA.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0141069; F:receptor ligand inhibitor activity; IDA:UniProtKB.
+DR   GO; GO:0038023; F:signaling receptor activity; IBA:GO_Central.
+DR   GO; GO:0050431; F:transforming growth factor beta binding; IDA:UniProtKB.
+DR   GO; GO:0035592; P:establishment of protein localization to extracellular region; IDA:UniProtKB.
+DR   GO; GO:0046007; P:negative regulation of activated T cell proliferation; IEA:Ensembl.
+DR   GO; GO:0001818; P:negative regulation of cytokine production; IEA:Ensembl.
+DR   GO; GO:0030512; P:negative regulation of transforming growth factor beta receptor signaling pathway; IBA:GO_Central.
+DR   GO; GO:0010628; P:positive regulation of gene expression; IEA:Ensembl.
+DR   GO; GO:0062009; P:secondary palate development; ISS:UniProtKB.
+DR   GO; GO:0007179; P:transforming growth factor beta receptor signaling pathway; IDA:UniProtKB.
+DR   CDD; cd00116; LRR_RI; 1.
+DR   FunFam; 3.80.10.10:FF:000226; leucine-rich repeat-containing protein 32 isoform X1; 1.
+DR   FunFam; 3.80.10.10:FF:000397; Transforming growth factor beta activator LRRC32; 1.
+DR   FunFam; 3.80.10.10:FF:000482; Transforming growth factor beta activator LRRC32; 1.
+DR   FunFam; 3.80.10.10:FF:000318; transforming growth factor beta activator LRRC32; 1.
+DR   Gene3D; 3.80.10.10; Ribonuclease Inhibitor; 4.
+DR   InterPro; IPR001611; Leu-rich_rpt.
+DR   InterPro; IPR003591; Leu-rich_rpt_typical-subtyp.
+DR   InterPro; IPR032675; LRR_dom_sf.
+DR   InterPro; IPR000372; LRRNT.
+DR   PANTHER; PTHR24366; IG(IMMUNOGLOBULIN) AND LRR(LEUCINE RICH REPEAT) DOMAINS; 1.
+DR   Pfam; PF13855; LRR_8; 5.
+DR   Pfam; PF01462; LRRNT; 1.
+DR   SMART; SM00364; LRR_BAC; 7.
+DR   SMART; SM00368; LRR_RI; 3.
+DR   SMART; SM00369; LRR_TYP; 14.
+DR   SMART; SM00013; LRRNT; 1.
+DR   SUPFAM; SSF52058; L domain-like; 2.
+DR   PROSITE; PS51450; LRR; 20.
+PE   1: Evidence at protein level;
+KW   3D-structure; Cell membrane; Disease variant; Disulfide bond; Glycoprotein;
+KW   Growth factor binding; Intellectual disability; Leucine-rich repeat;
+KW   Membrane; Proteomics identification; Reference proteome; Repeat; Signal;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..19
+FT                   /evidence="ECO:0000269|PubMed:21615933"
+FT   CHAIN           20..662
+FT                   /note="Transforming growth factor beta activator LRRC32"
+FT                   /id="PRO_0000021615"
+FT   TOPO_DOM        20..627
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        628..648
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        649..662
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          21..48
+FT                   /note="LRRNT"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          50..73
+FT                   /note="LRR 1"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          74..95
+FT                   /note="LRR 2"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          98..119
+FT                   /note="LRR 3"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          125..145
+FT                   /note="LRR 4"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          150..171
+FT                   /note="LRR 5"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          174..195
+FT                   /note="LRR 6"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          198..219
+FT                   /note="LRR 7"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          220..240
+FT                   /note="LRR 8"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          244..265
+FT                   /note="LRR 9"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          266..286
+FT                   /note="LRR 10"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          316..339
+FT                   /note="LRR 11"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          340..363
+FT                   /note="LRR 12"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          364..385
+FT                   /note="LRR 13"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          387..408
+FT                   /note="LRR 14"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          411..432
+FT                   /note="LRR 15"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          444..465
+FT                   /note="LRR 16"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          467..488
+FT                   /note="LRR 17"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          492..513
+FT                   /note="LRR 18"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          515..536
+FT                   /note="LRR 19"
+FT                   /evidence="ECO:0000255"
+FT   REPEAT          537..558
+FT                   /note="LRR 20"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          571..620
+FT                   /note="LRRCT"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        203
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        271
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        308
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000269|PubMed:19159218"
+FT   CARBOHYD        345
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        545
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   DISULFID        211
+FT                   /note="Interchain (with C-33 in TGFB1); in linked form"
+FT                   /evidence="ECO:0000269|PubMed:22278742"
+FT   DISULFID        350
+FT                   /note="Interchain (with C-33 in TGFB1); in linked form"
+FT                   /evidence="ECO:0000269|PubMed:22278742"
+FT   VARIANT         223
+FT                   /note="L -> V (in dbSNP:rs35033061)"
+FT                   /id="VAR_051113"
+FT   VARIANT         311
+FT                   /note="G -> A (in dbSNP:rs35130967)"
+FT                   /id="VAR_051114"
+FT   VARIANT         544..662
+FT                   /note="Missing (in CPPRDD)"
+FT                   /evidence="ECO:0000269|PubMed:30976112"
+FT                   /id="VAR_085139"
+FT   MUTAGEN         211
+FT                   /note="C->A: Abolishes interaction with Latency-associated
+FT                   peptide (LAP) of TGFB1; when associated with A-350."
+FT                   /evidence="ECO:0000269|PubMed:22278742"
+FT   MUTAGEN         350
+FT                   /note="C->A: Abolishes interaction with Latency-associated
+FT                   peptide (LAP) of TGFB1; when associated with A-211."
+FT                   /evidence="ECO:0000269|PubMed:22278742"
+FT   MUTAGEN         436
+FT                   /note="C->A: Abolishes Cell surface localization without
+FT                   affecting interaction with Latency-associated peptide (LAP)
+FT                   of TGFB1."
+FT                   /evidence="ECO:0000269|PubMed:22278742"
+FT   STRAND          27..34
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+FT   STRAND          37..39
+FT                   /evidence="ECO:0007829|PDB:8VSC"
+FT   STRAND          45..47
+FT                   /evidence="ECO:0007829|PDB:6GFF"
+FT   STRAND          52..55
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   HELIX           66..69
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          76..79
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   TURN            90..94
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+FT   STRAND          101..103
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          106..108
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   HELIX           109..111
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+FT   HELIX           112..115
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          116..118
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          128..130
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   HELIX           140..144
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          153..155
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          158..160
+FT                   /evidence="ECO:0007829|PDB:6GFF"
+FT   STRAND          177..179
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   TURN            190..195
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          201..203
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          211..214
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          222..224
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          231..233
+FT                   /evidence="ECO:0007829|PDB:8VSC"
+FT   STRAND          247..249
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   HELIX           261..263
+FT                   /evidence="ECO:0007829|PDB:6GFF"
+FT   STRAND          269..271
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   TURN            293..295
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   TURN            313..316
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          319..321
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   HELIX           332..337
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   TURN            338..340
+FT                   /evidence="ECO:0007829|PDB:8VSC"
+FT   STRAND          343..345
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          353..356
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          362..364
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+FT   STRAND          367..369
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          376..380
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   TURN            382..384
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          390..392
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   TURN            403..407
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          414..416
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          428..430
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+FT   STRAND          433..435
+FT                   /evidence="ECO:0007829|PDB:6GFF"
+FT   STRAND          447..449
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   TURN            460..465
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+FT   STRAND          469..472
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   TURN            483..488
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+FT   TURN            490..492
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          495..497
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   HELIX           510..512
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          518..520
+FT                   /evidence="ECO:0007829|PDB:8C7H"
+FT   STRAND          540..542
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+FT   TURN            553..555
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+FT   HELIX           559..561
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+FT   STRAND          565..567
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+FT   STRAND          575..577
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+FT   HELIX           579..586
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+FT   STRAND          587..590
+FT                   /evidence="ECO:0007829|PDB:8VSB"
+SQ   SEQUENCE   662 AA;  71979 MW;  700B93ADCDF25960 CRC64;
+     MRPQILLLLA LLTLGLAAQH QDKVPCKMVD KKVSCQVLGL LQVPSVLPPD TETLDLSGNQ
+     LRSILASPLG FYTALRHLDL STNEISFLQP GAFQALTHLE HLSLAHNRLA MATALSAGGL
+     GPLPRVTSLD LSGNSLYSGL LERLLGEAPS LHTLSLAENS LTRLTRHTFR DMPALEQLDL
+     HSNVLMDIED GAFEGLPRLT HLNLSRNSLT CISDFSLQQL RVLDLSCNSI EAFQTASQPQ
+     AEFQLTWLDL RENKLLHFPD LAALPRLIYL NLSNNLIRLP TGPPQDSKGI HAPSEGWSAL
+     PLSAPSGNAS GRPLSQLLNL DLSYNEIELI PDSFLEHLTS LCFLNLSRNC LRTFEARRLG
+     SLPCLMLLDL SHNALETLEL GARALGSLRT LLLQGNALRD LPPYTFANLA SLQRLNLQGN
+     RVSPCGGPDE PGPSGCVAFS GITSLRSLSL VDNEIELLRA GAFLHTPLTE LDLSSNPGLE
+     VATGALGGLE ASLEVLALQG NGLMVLQVDL PCFICLKRLN LAENRLSHLP AWTQAVSLEV
+     LDLRNNSFSL LPGSAMGGLE TSLRRLYLQG NPLSCCGNGW LAAQLHQGRV DVDATQDLIC
+     RFSSQEEVSL SHVRPEDCEK GGLKNINLII ILTFILVSAI LLTTLAACCC VRRQKFNQQY
+     KA
+//
+ID   RHGA_DICDI              Reviewed;         527 AA.
+AC   Q9NIV0; Q54R49;
+DT   15-DEC-2009, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   28-JAN-2026, entry version 126.
+DE   RecName: Full=Rhesus-like glycoprotein A;
+DE   AltName: Full=Rh50-like protein rhgA;
+GN   Name=rhgA; ORFNames=DDB_G0283389;
+OS   Dictyostelium discoideum (Social amoeba).
+OC   Eukaryota; Amoebozoa; Evosea; Eumycetozoa; Dictyostelia; Dictyosteliales;
+OC   Dictyosteliaceae; Dictyostelium.
+OX   NCBI_TaxID=44689;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=AX2;
+RX   PubMed=10852913; DOI=10.1074/jbc.m003353200;
+RA   Liu Z., Chen Y., Mo R., Hui C.-C., Cheng J.-F., Mohandas N., Huang C.-H.;
+RT   "Characterization of human RhCG and mouse Rhcg as novel nonerythroid Rh
+RT   glycoprotein homologues predominantly expressed in kidney and testis.";
+RL   J. Biol. Chem. 275:25641-25651(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=AX4;
+RX   PubMed=15875012; DOI=10.1038/nature03481;
+RA   Eichinger L., Pachebat J.A., Gloeckner G., Rajandream M.A., Sucgang R.,
+RA   Berriman M., Song J., Olsen R., Szafranski K., Xu Q., Tunggal B.,
+RA   Kummerfeld S., Madera M., Konfortov B.A., Rivero F., Bankier A.T.,
+RA   Lehmann R., Hamlin N., Davies R., Gaudet P., Fey P., Pilcher K., Chen G.,
+RA   Saunders D., Sodergren E.J., Davis P., Kerhornou A., Nie X., Hall N.,
+RA   Anjard C., Hemphill L., Bason N., Farbrother P., Desany B., Just E.,
+RA   Morio T., Rost R., Churcher C.M., Cooper J., Haydock S., van Driessche N.,
+RA   Cronin A., Goodhead I., Muzny D.M., Mourier T., Pain A., Lu M., Harper D.,
+RA   Lindsay R., Hauser H., James K.D., Quiles M., Madan Babu M., Saito T.,
+RA   Buchrieser C., Wardroper A., Felder M., Thangavelu M., Johnson D.,
+RA   Knights A., Loulseged H., Mungall K.L., Oliver K., Price C., Quail M.A.,
+RA   Urushihara H., Hernandez J., Rabbinowitsch E., Steffen D., Sanders M.,
+RA   Ma J., Kohara Y., Sharp S., Simmonds M.N., Spiegler S., Tivey A.,
+RA   Sugano S., White B., Walker D., Woodward J.R., Winckler T., Tanaka Y.,
+RA   Shaulsky G., Schleicher M., Weinstock G.M., Rosenthal A., Cox E.C.,
+RA   Chisholm R.L., Gibbs R.A., Loomis W.F., Platzer M., Kay R.R.,
+RA   Williams J.G., Dear P.H., Noegel A.A., Barrell B.G., Kuspa A.;
+RT   "The genome of the social amoeba Dictyostelium discoideum.";
+RL   Nature 435:43-57(2005).
+RN   [3]
+RP   SUBCELLULAR LOCATION, AND DISRUPTION PHENOTYPE.
+RX   PubMed=11220631; DOI=10.1007/s002510000279;
+RA   Benghezal M., Gotthardt D., Cornillon S., Cosson P.;
+RT   "Localization of the Rh50-like protein to the contractile vacuole in
+RT   Dictyostelium.";
+RL   Immunogenetics 52:284-288(2001).
+RN   [4]
+RP   SUBCELLULAR LOCATION, DISRUPTION PHENOTYPE, INTERACTION WITH AP1G1, AND
+RP   MUTAGENESIS OF 478-ASP--GLU-482.
+RX   PubMed=16478785; DOI=10.1242/jcs.02808;
+RA   Mercanti V., Blanc C., Lefkir Y., Cosson P., Letourneur F.;
+RT   "Acidic clusters target transmembrane proteins to the contractile vacuole
+RT   in Dictyostelium cells.";
+RL   J. Cell Sci. 119:837-845(2006).
+RN   [5]
+RP   IDENTIFICATION.
+RX   PubMed=17659086; DOI=10.1186/gb-2007-8-7-r144;
+RA   Sawai S., Guan X.-J., Kuspa A., Cox E.C.;
+RT   "High-throughput analysis of spatio-temporal dynamics in Dictyostelium.";
+RL   Genome Biol. 8:R144.1-R144.15(2007).
+CC   -!- FUNCTION: May be a carbon dioxide/bicarbonate transporter.
+CC       {ECO:0000250}.
+CC   -!- SUBUNIT: Interacts with ap1g1. {ECO:0000269|PubMed:16478785}.
+CC   -!- SUBCELLULAR LOCATION: Contractile vacuole {ECO:0000269|PubMed:11220631,
+CC       ECO:0000269|PubMed:16478785}. Membrane {ECO:0000305}; Multi-pass
+CC       membrane protein {ECO:0000305}.
+CC   -!- DOMAIN: Acidic motifs (DDEEE) in the C-terminal domain are necessary
+CC       and sufficient for efficient transport to the contractile vacuole.
+CC   -!- DISRUPTION PHENOTYPE: Does not appear to exhibit a phenotype related to
+CC       osmoregulation perhaps due to functional redundancy with rhgB.
+CC       {ECO:0000269|PubMed:11220631, ECO:0000269|PubMed:16478785}.
+CC   -!- SIMILARITY: Belongs to the ammonium transporter (TC 2.A.49) family. Rh
+CC       subfamily. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF193811; AAF63243.1; -; mRNA.
+DR   EMBL; AF510714; AAP47143.1; -; Genomic_DNA.
+DR   EMBL; AAFI02000055; EAL65679.1; -; Genomic_DNA.
+DR   RefSeq; XP_639042.1; XM_633950.1.
+DR   AlphaFoldDB; Q9NIV0; -.
+DR   SMR; Q9NIV0; -.
+DR   FunCoup; Q9NIV0; 4.
+DR   STRING; 44689.Q9NIV0; -.
+DR   TCDB; 1.A.11.4.6; the ammonium transporter channel (amt) family.
+DR   GlyCosmos; Q9NIV0; 1 site, No reported glycans.
+DR   GlyGen; Q9NIV0; 1 site.
+DR   PaxDb; 44689-DDB0191180; -.
+DR   ABCD; Q9NIV0; 1 sequenced antibody.
+DR   GeneID; 8624067; -.
+DR   KEGG; ddi:DDB_G0283389; -.
+DR   dictyBase; DDB_G0283389; rhgA.
+DR   VEuPathDB; AmoebaDB:DDB_G0283389; -.
+DR   eggNOG; KOG3796; Eukaryota.
+DR   HOGENOM; CLU_021386_1_0_1; -.
+DR   InParanoid; Q9NIV0; -.
+DR   OMA; LAVFTIQ; -.
+DR   PhylomeDB; Q9NIV0; -.
+DR   Reactome; R-DDI-444411; Rhesus glycoproteins mediate ammonium transport.
+DR   PRO; PR:Q9NIV0; -.
+DR   Proteomes; UP000002195; Chromosome 4.
+DR   GO; GO:0000331; C:contractile vacuole; IDA:dictyBase.
+DR   GO; GO:0005768; C:endosome; IDA:dictyBase.
+DR   GO; GO:0016020; C:membrane; ISS:dictyBase.
+DR   GO; GO:0005886; C:plasma membrane; IDA:dictyBase.
+DR   GO; GO:0008519; F:ammonium channel activity; ISS:dictyBase.
+DR   GO; GO:0097272; P:ammonium homeostasis; IBA:GO_Central.
+DR   GO; GO:0072488; P:ammonium transmembrane transport; ISS:dictyBase.
+DR   FunFam; 1.10.3430.10:FF:000018; Rhesus-like glycoprotein B; 1.
+DR   Gene3D; 1.10.3430.10; Ammonium transporter AmtB like domains; 1.
+DR   InterPro; IPR029020; Ammonium/urea_transptr.
+DR   InterPro; IPR024041; NH4_transpt_AmtB-like_dom.
+DR   InterPro; IPR002229; RhesusRHD.
+DR   PANTHER; PTHR11730; AMMONIUM TRANSPORTER; 1.
+DR   PANTHER; PTHR11730:SF60; RH50, ISOFORM D; 1.
+DR   Pfam; PF00909; Ammonium_transp; 1.
+DR   PRINTS; PR00342; RHESUSRHD.
+DR   SUPFAM; SSF111352; Ammonium transporter; 1.
+PE   1: Evidence at protein level;
+KW   Glycoprotein; Membrane; Reference proteome; Transmembrane;
+KW   Transmembrane helix; Transport; Vacuole.
+FT   CHAIN           1..527
+FT                   /note="Rhesus-like glycoprotein A"
+FT                   /id="PRO_0000390404"
+FT   TOPO_DOM        1..18
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        19..39
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        40..70
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        71..91
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        92..99
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        100..120
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        121..141
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        142..162
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        163..166
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        167..187
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        188..195
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        196..216
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        217..236
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        237..257
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        258..263
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        264..284
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        285..299
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        300..319
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        320..321
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        322..342
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        343..357
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        358..378
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        379..406
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        407..427
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        428..527
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   REGION          471..527
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        483..495
+FT                   /note="Basic and acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        514..527
+FT                   /note="Acidic residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        47
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+FT   MUTAGEN         478..482
+FT                   /note="DDEEE->AAAAA: Decreased interaction with AP1G1, loss
+FT                   of transport to the contractile vacuole and mislocalization
+FT                   to the plasma membrane and small vesicular structures."
+FT                   /evidence="ECO:0000269|PubMed:16478785"
+SQ   SEQUENCE   527 AA;  58360 MW;  88E1EC35BAAC8C9D CRC64;
+     MTHNDDDHKW VTTKRKEPIF FTVILFIFQI FMIICFAALT GYDTNKNYTG SENPDEFKGG
+     EVQERVNNFY GYFRDINIMI FFGFGFLMTF LRRYGYSALG YTFIISALVS QWSVLLNGFF
+     EAWSHSNKHG EFPSTWEFSM DSLLQGFFCS GSVMISYGAI LGRVTPLHML IMGIIEPIFF
+     FLNVFIGEMN LEAIDVGGGM YIHLFGSVFG LTVAWFLTDR KSKECTDNAP SYSGDNFAMA
+     GTLFLWMMWP SFNAAIAPLG EPQFRAIANT FLSLTGSTVA TFIVSRLFSH LGNKLDMVHV
+     QNSSLAGGVV QGCIAHMNIN PGGAIAMGFI AGTISVCGYL FITPKVQRKL HIQDTCGILN
+     LHCIPGFLGS IAAIFAAIKG LNNPNMYSKV EFEQIFRAGD SQASANLIAT MVSIGLGIVG
+     GLLVGVILLQ LKKIKGLKSK EYYQDSAFWI LPIDYPKDVA TVVALNNAAT SEDTAGGDDE
+     EEGVGKEHGA VEMGKHNRIV QPKQDNKYHK QLPSDDEEED EFKQEPI
+//
+ID   GC_GAHVG                Reviewed;         505 AA.
+AC   P10681;
+DT   01-JAN-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-JAN-1990, sequence version 1.
+DT   28-JAN-2026, entry version 106.
+DE   RecName: Full=Envelope glycoprotein C homolog;
+DE   AltName: Full=A antigen;
+DE   AltName: Full=Glycoprotein A;
+DE            Short=GA;
+DE   AltName: Full=Secretory glycoprotein GP57-65;
+DE   Flags: Precursor;
+GN   Name=gC; ORFNames=GA;
+OS   Gallid herpesvirus 2 (strain GA) (GaHV-2) (Marek's disease herpesvirus type
+OS   1).
+OC   Viruses; Duplodnaviria; Heunggongvirae; Peploviricota; Herviviricetes;
+OC   Herpesvirales; Orthoherpesviridae; Alphaherpesvirinae; Mardivirus;
+OC   Mardivirus gallidalpha2; Gallid alphaherpesvirus 2.
+OX   NCBI_TaxID=10388;
+OH   NCBI_TaxID=9031; Gallus gallus (Chicken).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2836620; DOI=10.1128/jvi.62.7.2373-2379.1988;
+RA   Coussens P.M., Velicer L.F.;
+RT   "Structure and complete nucleotide sequence of the Marek's disease
+RT   herpesvirus gp57-65 gene.";
+RL   J. Virol. 62:2373-2379(1988).
+CC   -!- FUNCTION: May play an immunoevasive role in the pathogenesis of Marek's
+CC       disease. It is a candidate for causing the early-stage
+CC       immunosuppression that occurs after MDHV infection.
+CC   -!- SUBCELLULAR LOCATION: Secreted. Host cell membrane; Single-pass
+CC       membrane protein. Note=Predominantly secreted. Secreted, but a small
+CC       amount of mature GP57-65 is anchored in the plasma membrane or held by
+CC       other interactions.
+CC   -!- SIMILARITY: Belongs to the herpesviridae glycoprotein C family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M20001; AAA46114.1; -; Genomic_DNA.
+DR   GlyCosmos; P10681; 8 sites, No reported glycans.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   InterPro; IPR001038; GA_GC.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR001654; Marek_A.
+DR   Pfam; PF02124; Marek_A; 1.
+DR   PRINTS; PR00675; MAREKSGPA.
+DR   SUPFAM; SSF48726; Immunoglobulin; 1.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+PE   3: Inferred from homology;
+KW   Glycoprotein; Host cell membrane; Host membrane; Host-virus interaction;
+KW   Immunoglobulin domain; Membrane; Secreted; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           28..505
+FT                   /note="Envelope glycoprotein C homolog"
+FT                   /id="PRO_0000038208"
+FT   TOPO_DOM        28..464
+FT                   /note="Virion surface"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        465..491
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        492..505
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          257..355
+FT                   /note="Ig-like"
+FT   REGION          51..85
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        61..71
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        45
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        90
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        99
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        119
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        211
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        353
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        399
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        428
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   505 AA;  56809 MW;  D06D75D7D9C6666D CRC64;
+     MLTPRVLRAL GWTGLFFLLL SPSNVLGASL SRDLEHPILS FDPSNISING APLTEVPHAP
+     STESVSTNSE STNEHTITET TGKNAYIHNN ASTDKQNAND THKTPNILCD TEEVFVFLNE
+     TGRFVCTLKV DPPSDSEWSN FVLDLIFNPI EYHANEKNVE AARIAGLYGV PGSDYAYPRQ
+     SELISSIRRD PQGTFWTSPS PHGNKYFIWI NKTTNTMGVE IRNVDYADNG YMQVIMRDHF
+     NRPLIDKHIY IRVCQRPASV DVLAPPVLSG ENYKASCIVR HFYPPGSVYV SWRQNGNIAT
+     PRKDRDGSFW WFESGRGATL VSTITLGNSG IDFPPKISCL VAWKQGDMIS TTNATAIPTV
+     YHHPRLSLAF KDGYAICTIE CVPSEITVRW LVHDEAQPNT TYNTVVTGLC RTIDRHRNLL
+     SRIPVWDNWT KTKYTCRLIG YPFDEDKFQD SEYYDATPSA RGTPMVITVN GSFGIGCNFR
+     VGDNHDCPMF IHSTRKIFDY NLIVM
+//
+ID   GC_GAHVB                Reviewed;         501 AA.
+AC   P22650;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1991, sequence version 1.
+DT   28-JAN-2026, entry version 107.
+DE   RecName: Full=Envelope glycoprotein C homolog;
+DE   AltName: Full=A antigen;
+DE   AltName: Full=Glycoprotein A;
+DE            Short=GA;
+DE   AltName: Full=Secretory glycoprotein GP57-65;
+DE   Flags: Precursor;
+GN   Name=gC; ORFNames=GA;
+OS   Gallid herpesvirus 2 (strain bc-1) (GaHV-2) (Marek's disease herpesvirus
+OS   type 1).
+OC   Viruses; Duplodnaviria; Heunggongvirae; Peploviricota; Herviviricetes;
+OC   Herpesvirales; Orthoherpesviridae; Alphaherpesvirinae; Mardivirus;
+OC   Mardivirus gallidalpha2; Gallid alphaherpesvirus 2.
+OX   NCBI_TaxID=10387;
+OH   NCBI_TaxID=9031; Gallus gallus (Chicken).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2559540; DOI=10.1007/bf00125125;
+RA   Ihara T., Kato A., Ueda S., Ishihama A., Hirai K.;
+RT   "Comparison of the sequence of the secretory glycoprotein A (gA) gene in
+RT   Md5 and BC-1 strains of Marek's disease virus type 1.";
+RL   Virus Genes 3:127-140(1989).
+CC   -!- FUNCTION: May play an immunoevasive role in the pathogenesis of Marek's
+CC       disease. It is a candidate for causing the early-stage
+CC       immunosuppression that occurs after MDHV infection.
+CC   -!- SUBCELLULAR LOCATION: Secreted. Host cell membrane; Single-pass
+CC       membrane protein. Note=Predominantly secreted. Secreted, but a small
+CC       amount of mature GP57-65 is anchored in the plasma membrane or held by
+CC       other interactions.
+CC   -!- SIMILARITY: Belongs to the herpesviridae glycoprotein C family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D90002; BAA14054.1; ALT_SEQ; Genomic_DNA.
+DR   GlyCosmos; P22650; 8 sites, No reported glycans.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   InterPro; IPR001038; GA_GC.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR001654; Marek_A.
+DR   Pfam; PF02124; Marek_A; 1.
+DR   PRINTS; PR00675; MAREKSGPA.
+DR   SUPFAM; SSF48726; Immunoglobulin; 1.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+PE   3: Inferred from homology;
+KW   Glycoprotein; Host cell membrane; Host membrane; Host-virus interaction;
+KW   Immunoglobulin domain; Membrane; Secreted; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           28..501
+FT                   /note="Envelope glycoprotein C homolog"
+FT                   /id="PRO_0000038207"
+FT   TOPO_DOM        28..465
+FT                   /note="Virion surface"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        466..492
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        493..501
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          258..356
+FT                   /note="Ig-like"
+FT   REGION          53..87
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        62..72
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        46
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        91
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        100
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        120
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        212
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        354
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        400
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        429
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   501 AA;  56135 MW;  DE71E952331024B0 CRC64;
+     MLTPRVLRAL GWTGLFFLLL SPSNVLGASL SRDLETPPFL SFDPSNISIN GAPLTEVPHA
+     PSTESVSTNS ESTNEHTITE TTGKNAYIHN NASTDKQNAN DTHKMPNILC DTEEVFVFLN
+     ETGRFVCTLK VDPPSDSEWS NFVLDLIFNP IEYHANEKNV EAARIAGLYG VPGSDYAYPR
+     QSELISSIRR DPQGTFWTSP SPHGNKYFIW INKTTNTMGV EIRNVDYADN GYMQVIMRDH
+     FNRPLIDKHI YIRVCQRPAS VDVLAPPVLS GENYKASCIV RHFYPPGSVY VSWRQNGNIA
+     TPRKDRDGSF WWFESGRGAT LVSTITLGNS GIDFPPKISC LVAWKQGDMI STTNATAIPT
+     VYHHPRLSLA FKDGYAICTI ECVPSEITVR WLVHDEAQPN TTYNTVVTGL CRTIDRHRNL
+     LSRIPVWDNW TKTKYTCRLI GYPFDEDKFQ DSEYYDATPS ARGTPMVITV TAVLGLAVIL
+     GMGIIMTALC LYNSTRKNIR L
+//
+ID   GC_GAHVM                Reviewed;         501 AA.
+AC   P22651; Q6LAR3; Q77MR8;
+DT   01-AUG-1991, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1991, sequence version 1.
+DT   28-JAN-2026, entry version 115.
+DE   RecName: Full=Envelope glycoprotein C homolog;
+DE   AltName: Full=A antigen;
+DE   AltName: Full=Glycoprotein A;
+DE            Short=GA;
+DE   AltName: Full=Secretory glycoprotein GP57-65;
+DE   Flags: Precursor;
+GN   Name=gC; ORFNames=GA;
+OS   Gallid herpesvirus 2 (strain Chicken/Md5/ATCC VR-987) (GaHV-2) (Marek's
+OS   disease herpesvirus type 1).
+OC   Viruses; Duplodnaviria; Heunggongvirae; Peploviricota; Herviviricetes;
+OC   Herpesvirales; Orthoherpesviridae; Alphaherpesvirinae; Mardivirus;
+OC   Mardivirus gallidalpha2; Gallid alphaherpesvirus 2.
+OX   NCBI_TaxID=10389;
+OH   NCBI_TaxID=9031; Gallus gallus (Chicken).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2559540; DOI=10.1007/bf00125125;
+RA   Ihara T., Kato A., Ueda S., Ishihama A., Hirai K.;
+RT   "Comparison of the sequence of the secretory glycoprotein A (gA) gene in
+RT   Md5 and BC-1 strains of Marek's disease virus type 1.";
+RL   Virus Genes 3:127-140(1989).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=10933706; DOI=10.1128/jvi.74.17.7980-7988.2000;
+RA   Tulman E.R., Afonso C.L., Lu Z., Zsak L., Rock D.L., Kutish G.F.;
+RT   "The genome of a very virulent Marek's disease virus.";
+RL   J. Virol. 74:7980-7988(2000).
+CC   -!- FUNCTION: May play an immunoevasive role in the pathogenesis of Marek's
+CC       disease. It is a candidate for causing the early-stage
+CC       immunosuppression that occurs after MDHV infection.
+CC   -!- SUBCELLULAR LOCATION: Secreted. Host cell membrane; Single-pass
+CC       membrane protein. Note=Predominantly secreted. Secreted, but a small
+CC       amount of mature GP57-65 is anchored in the plasma membrane or held by
+CC       other interactions.
+CC   -!- SIMILARITY: Belongs to the herpesviridae glycoprotein C family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; D90001; BAA14052.1; -; Genomic_DNA.
+DR   EMBL; AF243438; AAG14237.1; -; Genomic_DNA.
+DR   GlyCosmos; P22651; 8 sites, No reported glycans.
+DR   KEGG; vg:4811518; -.
+DR   Proteomes; UP000008072; Segment.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   InterPro; IPR001038; GA_GC.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR001654; Marek_A.
+DR   Pfam; PF02124; Marek_A; 1.
+DR   PRINTS; PR00675; MAREKSGPA.
+DR   SUPFAM; SSF48726; Immunoglobulin; 1.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+PE   3: Inferred from homology;
+KW   Glycoprotein; Host cell membrane; Host membrane; Host-virus interaction;
+KW   Immunoglobulin domain; Membrane; Reference proteome; Secreted; Signal;
+KW   Transmembrane; Transmembrane helix.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           28..501
+FT                   /note="Envelope glycoprotein C homolog"
+FT                   /id="PRO_0000038209"
+FT   TOPO_DOM        28..465
+FT                   /note="Virion surface"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        466..492
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        493..501
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          258..356
+FT                   /note="Ig-like"
+FT   REGION          53..86
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        62..72
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        46
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        91
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        100
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        120
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        212
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        354
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        400
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        429
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   501 AA;  56089 MW;  4393C56AA779340A CRC64;
+     MLTPRVLRAL GWTGLFFLLL SPSNVLGASL SRDLETPPFL SFDPSNISIN GAPLTEVPHA
+     PSTESVSTNS ESTNEHTITE TTGKNAYIHN NASTDKQNAN DTHKTPNILC DTEEVFVFLN
+     ETGRFVCTLK VDPPSDSEWS NFVLDLIFNP IEYHANEKNV EAARIAGLYG VPGSDYAYPR
+     QSELISSIRR DPQGTFWTSP SPHGNKYFIW INKTTNTMGV EIRNVDYADN GYMQVIMRDH
+     FNRPLIDKHI YIRVCQRPAS VDVLAPPVLS GENYKASCIV RHFYPPGSVY VSWRQNGNIA
+     TPRKDRDGSF WWFESGRGAT LVSTITLGNS GIDFPPKISC LVAWKQGDMI STTNATAIPT
+     VYHHPRLSLA FKDGYAICTI ECVPSEITVR WLVHDEAQPN TTYNTVVTGL CRTIDRHRNL
+     LSRIPVWDNW TKTKYTCRLI GYPFDEDKFQ DSEYYDATPA ARGTPMVITV TAVLGLAVIL
+     GMGIIMTALC LYNSTRKNIR L
+//
+ID   GC_GAHVR                Reviewed;         501 AA.
+AC   P33500;
+DT   01-FEB-1994, integrated into UniProtKB/Swiss-Prot.
+DT   01-FEB-1994, sequence version 1.
+DT   28-JAN-2026, entry version 100.
+DE   RecName: Full=Envelope glycoprotein C homolog;
+DE   AltName: Full=A antigen;
+DE   AltName: Full=Glycoprotein A;
+DE            Short=GA;
+DE   AltName: Full=Secretory glycoprotein GP57-65;
+DE   Flags: Precursor;
+GN   Name=gC; ORFNames=GA;
+OS   Gallid herpesvirus 2 (strain RB-1b) (GaHV-2) (Marek's disease herpesvirus
+OS   type 1).
+OC   Viruses; Duplodnaviria; Heunggongvirae; Peploviricota; Herviviricetes;
+OC   Herpesvirales; Orthoherpesviridae; Alphaherpesvirinae; Mardivirus;
+OC   Mardivirus gallidalpha2; Gallid alphaherpesvirus 2.
+OX   NCBI_TaxID=33707;
+OH   NCBI_TaxID=9031; Gallus gallus (Chicken).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2543160; DOI=10.1016/0168-1702(89)90094-4;
+RA   Binns M.M., Ross N.L.J.;
+RT   "Nucleotide sequence of the Marek's disease virus (MDV) RB-1B A antigen
+RT   gene and the identification of the MDV A antigen as the herpes simplex
+RT   virus-1 glycoprotein C homologue.";
+RL   Virus Res. 12:371-382(1989).
+CC   -!- FUNCTION: May play an immunoevasive role in the pathogenesis of Marek's
+CC       disease. It is a candidate for causing the early-stage
+CC       immunosuppression that occurs after MDHV infection.
+CC   -!- SUBCELLULAR LOCATION: Secreted. Host cell membrane; Single-pass
+CC       membrane protein. Note=Predominantly secreted. Secreted, but a small
+CC       amount of mature GP57-65 is anchored in the plasma membrane or held by
+CC       other interactions.
+CC   -!- SIMILARITY: Belongs to the herpesviridae glycoprotein C family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   GlyCosmos; P33500; 8 sites, No reported glycans.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   GO; GO:0020002; C:host cell plasma membrane; IEA:UniProtKB-SubCell.
+DR   InterPro; IPR001038; GA_GC.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR001654; Marek_A.
+DR   Pfam; PF02124; Marek_A; 1.
+DR   PRINTS; PR00675; MAREKSGPA.
+DR   SUPFAM; SSF48726; Immunoglobulin; 1.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+PE   3: Inferred from homology;
+KW   Glycoprotein; Host cell membrane; Host membrane; Host-virus interaction;
+KW   Immunoglobulin domain; Membrane; Secreted; Signal; Transmembrane;
+KW   Transmembrane helix.
+FT   SIGNAL          1..27
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           28..501
+FT                   /note="Envelope glycoprotein C homolog"
+FT                   /id="PRO_0000038206"
+FT   TOPO_DOM        28..465
+FT                   /note="Virion surface"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        466..492
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        493..501
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          258..356
+FT                   /note="Ig-like"
+FT   REGION          53..86
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        62..72
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        46
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        91
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        100
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        120
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        212
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        354
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        400
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        429
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   501 AA;  56105 MW;  438473B1DD79340A CRC64;
+     MLTPRVLRAL GWTGLFFLLL SPSNVLGASL SRDLETPPFL SFDPSNISIN GAPLTEVPHA
+     PSTESVSTNS ESTNEHTITE TTGKNAYIHN NASTDKQNAN DTHKTPNILC DTEEVFVFLN
+     ETGRFVCTLK VDPPSDSEWS NFVLDLIFNP IEYHANEKNV EAARIAGLYG VPGSDYAYPR
+     QSELISSIRR DPQGTFWTSP SPHGNKYFIW INKTTNTMGV EIRNVDYADN GYMQVIMRDH
+     FNRPLIDKHI YIRVCQRPAS VDVLAPPVLS GENYKASCIV RHFYPPGSVY VSWRQNGNIA
+     TPRKDRDGSF WWFESGRGAT LVSTITLGNS GIDFPPKISC LVAWKQGDMI STTNATAIPT
+     VYHHPRLSLA FKDGYAICTI ECVPSEITVR WLVHDEAQPN TTYNTVVTGL CRTIDRHRNL
+     LSRIPVWDNW TKTKYTCRLI GYPFDEDKFQ DSEYYDATPS ARGTPMVITV TAVLGLAVIL
+     GMGIIMTALC LYNSTRKNIR L
+//
+ID   RHBGA_XENLA             Reviewed;         460 AA.
+AC   Q69D48; Q6PB05;
+DT   03-APR-2007, integrated into UniProtKB/Swiss-Prot.
+DT   13-SEP-2004, sequence version 1.
+DT   09-APR-2025, entry version 74.
+DE   RecName: Full=Ammonium transporter Rh type B-A;
+DE   AltName: Full=Rhesus blood group family type B glycoprotein A;
+DE            Short=Rh family type B glycoprotein A;
+DE            Short=Rh type B glycoprotein A;
+GN   Name=rhbg-a;
+OS   Xenopus laevis (African clawed frog).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Amphibia;
+OC   Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae; Xenopus; Xenopus.
+OX   NCBI_TaxID=8355;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Kidney;
+RX   PubMed=16227429; DOI=10.1073/pnas.0507886102;
+RA   Huang C.-H., Peng J.;
+RT   "Evolutionary conservation and diversification of Rh family genes and
+RT   proteins.";
+RL   Proc. Natl. Acad. Sci. U.S.A. 102:15512-15517(2005).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   TISSUE=Kidney;
+RG   NIH - Xenopus Gene Collection (XGC) project;
+RL   Submitted (NOV-2004) to the EMBL/GenBank/DDBJ databases.
+CC   -!- FUNCTION: Functions as a specific ammonium transporter. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Basolateral cell membrane {ECO:0000250}; Multi-
+CC       pass membrane protein {ECO:0000250}. Cytoplasmic vesicle membrane
+CC       {ECO:0000250}; Multi-pass membrane protein {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the ammonium transporter (TC 2.A.49) family. Rh
+CC       subfamily. {ECO:0000305}.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=AAH59979.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC       Sequence=AAH86275.1; Type=Erroneous initiation; Evidence={ECO:0000305};
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AY353246; AAR08675.1; -; mRNA.
+DR   EMBL; BC059979; AAH59979.1; ALT_INIT; mRNA.
+DR   EMBL; BC086275; AAH86275.1; ALT_INIT; mRNA.
+DR   RefSeq; NP_001083174.1; NM_001089705.1.
+DR   AlphaFoldDB; Q69D48; -.
+DR   SMR; Q69D48; -.
+DR   GlyCosmos; Q69D48; 1 site, No reported glycans.
+DR   DNASU; 398784; -.
+DR   GeneID; 398784; -.
+DR   KEGG; xla:398784; -.
+DR   AGR; Xenbase:XB-GENE-6255430; -.
+DR   CTD; 398784; -.
+DR   Xenbase; XB-GENE-6255430; rhbg.L.
+DR   OrthoDB; 534912at2759; -.
+DR   Proteomes; UP000186698; Chromosome 8L.
+DR   Bgee; 398784; Expressed in kidney and 11 other cell types or tissues.
+DR   GO; GO:0016323; C:basolateral plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0030659; C:cytoplasmic vesicle membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005886; C:plasma membrane; IBA:GO_Central.
+DR   GO; GO:0008519; F:ammonium channel activity; IBA:GO_Central.
+DR   GO; GO:0097272; P:ammonium homeostasis; IBA:GO_Central.
+DR   GO; GO:0072488; P:ammonium transmembrane transport; IBA:GO_Central.
+DR   FunFam; 1.10.3430.10:FF:000001; Ammonium transporter Rh type C; 1.
+DR   Gene3D; 1.10.3430.10; Ammonium transporter AmtB like domains; 1.
+DR   InterPro; IPR029020; Ammonium/urea_transptr.
+DR   InterPro; IPR024041; NH4_transpt_AmtB-like_dom.
+DR   InterPro; IPR002229; RhesusRHD.
+DR   PANTHER; PTHR11730; AMMONIUM TRANSPORTER; 1.
+DR   PANTHER; PTHR11730:SF42; AMMONIUM TRANSPORTER RH TYPE B; 1.
+DR   Pfam; PF00909; Ammonium_transp; 1.
+DR   PRINTS; PR00342; RHESUSRHD.
+DR   SUPFAM; SSF111352; Ammonium transporter; 1.
+PE   2: Evidence at transcript level;
+KW   Ammonia transport; Cell membrane; Cytoplasmic vesicle; Glycoprotein;
+KW   Membrane; Reference proteome; Transmembrane; Transmembrane helix;
+KW   Transport.
+FT   CHAIN           1..460
+FT                   /note="Ammonium transporter Rh type B-A"
+FT                   /id="PRO_0000283610"
+FT   TOPO_DOM        1..10
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        11..31
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        32..62
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        63..83
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        84..87
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        88..108
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        109..125
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        126..146
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        147..150
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        151..171
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        172..179
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        180..202
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        203..220
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        221..241
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        242..252
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        253..273
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        274..283
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        284..304
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        305
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        306..326
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        327..347
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        348..368
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        369..394
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        395..415
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        416..460
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        48
+FT                   /note="N-linked (GlcNAc...) asparagine"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   460 AA;  50177 MW;  7E533E1125B279DC CRC64;
+     MTGYSTNMRI KLPLFCLILQ FITIILFAVF VRYDHESDAR GWHDELKNHS TANADNDFYF
+     RYPSFQDVHV MIFIGFGFLM TFLKRYGFSS VAFNFLIAAF GLQWSTLIQG FFHGFHDGKI
+     HVGIESMINA DFCTGAVLIS FGAVLGKTSP VQLIVMTLIE VTLFGINEYI ILNIVGAKDA
+     GGSMTIHTFG AYFGLIVSRV LYRADLDKSR QREGSVYHSD LFAMIGTIYL WMFWPSFNSA
+     VTAHGDDQHR TVLNTYYSLA ACTLATFGFS ALLNGEGKLD MVHIQNAALA GGVAVGTSGE
+     MMLTPFGAMI AGTLAGIVSV LGYKYLTPVL DSKLKIQDTC GVHNLHGMPG ILGAVIGAIV
+     ALFATADIYG DGMDDVFPMI FDGSRTAKQQ SLYQFLALLV ALGFAIVGGT VVGFILKLPL
+     FGTPSDAECF EDAVYWEVPG GEGHQQLTVV VNNEDPDTQA
+//
+ID   GC_MEHVH                Reviewed;         489 AA.
+AC   P18535;
+DT   01-NOV-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1990, sequence version 1.
+DT   28-JAN-2026, entry version 96.
+DE   RecName: Full=Envelope glycoprotein C homolog;
+DE   AltName: Full=A antigen;
+DE   AltName: Full=Glycoprotein A;
+DE   Flags: Precursor;
+GN   Name=gC; ORFNames=GA;
+OS   Meleagrid herpesvirus 1 (strain H2) (MeHV-1) (Turkey herpesvirus).
+OC   Viruses; Duplodnaviria; Heunggongvirae; Peploviricota; Herviviricetes;
+OC   Herpesvirales; Orthoherpesviridae; Alphaherpesvirinae; Mardivirus;
+OC   Mardivirus gallidalpha2; Gallid alphaherpesvirus 2.
+OX   NCBI_TaxID=10392;
+OH   NCBI_TaxID=9031; Gallus gallus (Chicken).
+OH   NCBI_TaxID=9103; Meleagris gallopavo (Wild turkey).
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=2558972; DOI=10.1016/0378-1119(89)90514-3;
+RA   Kato A., Sato I., Ihara T., Ueda S., Ishihama A., Hirai K.;
+RT   "Homologies between herpesvirus of turkey and Marek's disease virus type-1
+RT   DNAs within two co-linearly arranged open reading frames, one encoding
+RT   glycoprotein A.";
+RL   Gene 84:399-405(1989).
+CC   -!- SUBCELLULAR LOCATION: Virion membrane {ECO:0000305}; Single-pass
+CC       membrane protein {ECO:0000305}.
+CC   -!- SIMILARITY: Belongs to the herpesviridae glycoprotein C family.
+CC       {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; M33303; AAA46107.1; -; Genomic_DNA.
+DR   EMBL; D90003; BAA14056.1; -; Genomic_DNA.
+DR   PIR; JQ0162; VGBETA.
+DR   GlyCosmos; P18535; 5 sites, No reported glycans.
+DR   GO; GO:0055036; C:virion membrane; IEA:UniProtKB-SubCell.
+DR   Gene3D; 2.60.40.10; Immunoglobulins; 1.
+DR   InterPro; IPR001038; GA_GC.
+DR   InterPro; IPR007110; Ig-like_dom.
+DR   InterPro; IPR036179; Ig-like_dom_sf.
+DR   InterPro; IPR013783; Ig-like_fold.
+DR   InterPro; IPR001654; Marek_A.
+DR   Pfam; PF02124; Marek_A; 1.
+DR   PRINTS; PR00675; MAREKSGPA.
+DR   SUPFAM; SSF48726; Immunoglobulin; 1.
+DR   PROSITE; PS50835; IG_LIKE; 1.
+PE   3: Inferred from homology;
+KW   Glycoprotein; Host-virus interaction; Immunoglobulin domain; Membrane;
+KW   Signal; Transmembrane; Transmembrane helix; Virion.
+FT   SIGNAL          1..32
+FT                   /evidence="ECO:0000255"
+FT   CHAIN           33..489
+FT                   /note="Envelope glycoprotein C homolog"
+FT                   /id="PRO_0000038211"
+FT   TOPO_DOM        33..455
+FT                   /note="Virion surface"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        456..486
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        487..489
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   DOMAIN          250..348
+FT                   /note="Ig-like"
+FT   REGION          59..94
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        60..69
+FT                   /note="Polar residues"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   COMPBIAS        70..81
+FT                   /note="Low complexity"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   CARBOHYD        92
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        112
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        204
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        346
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+FT   CARBOHYD        392
+FT                   /note="N-linked (GlcNAc...) asparagine; by host"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   489 AA;  54718 MW;  F4140C71342FCC5C CRC64;
+     MVSNMRVLRV LRLTGWVGIF LVLSLQQTSC AGLPHNVDTH HILTFNPSPI SADGVPLSEV
+     PNSPTTELST TVATKTAVPT TESTSSSEAH RNSSHKIPDI ICDREEVFVF LNNTGRILCD
+     LIVDPPSDDE WSNFALDVTF NPIEYHANEK NVEVARVAGL YGVPGSDYAY PRKSELISSI
+     RRDPQGSFWT SPTPRGNKYF IWINKTMHTM GVEVRNVDYK DNGYFQVILR DRFNRPLVEK
+     HIYMRVCQRP ASVDVLAPPV LSGENYKASC IVRHFYPPGS VYVSWRRNGN IATPRKDRDG
+     SFWWFESGRG ATLVSTITLG NSGLESPPKV SCLVAWRQGD MISTSNATAV PTVYYHPRIS
+     LAFKDGYAIC TIECVPSGIT VRWLVHDEPQ PNTTYDTVVT GLCRTIDRYR NLASRIPVQD
+     NWAKTKYTCR LIGYPFDVDR FQNSEYYDAT PSARGMPMIV TITAVLGLAL FLGIGIIITA
+     LCFYLPGRN
+//
