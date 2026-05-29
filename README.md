@@ -6,8 +6,8 @@ This tool predicts transmembrane (TM) helices and membrane topology from protein
 - **Biological heuristics** including the positive-inside rule, aromatic interface anchors, and TM composition checks
 - **Modular TM motif detection** (e.g. `G/AXXXG/A`, `S/TXXXS/T`)
 - **3-state Hidden Markov Model (HMM)** with Viterbi decoding for Cytosolic / TM / Extracellular assignment
-- **Candidate-guided multi-domain refinement** for proteins with repeated TM segments
-- **Interpretable confidence scoring** with factors breakdown
+- **Candidate-guided multi-domain refinement** for proteins with repeated TM segments, merged with global HMM spans
+- **Interpretable heuristic confidence scoring** with factor breakdown (HMM path score is shown separately)
 - **Interactive Streamlit UI** for prediction, evidence, and model inspection
 - **UniProt-supervised HMM training** from `FT TRANSMEM` annotations
 
@@ -22,7 +22,7 @@ This predictor uses a two-stage approach:
 1. **Heuristic screening** identifies hydrophobic stretches likely to span the membrane, then scores biological plausibility (charge asymmetry, composition, motifs).
 2. **HMM decoding** assigns each residue to a hidden topological state (Cytosolic, TM helix, or Extracellular) using emission and transition probabilities, optionally trained on annotated UniProt sequences.
 
-For **multi-pass** proteins (several TM domains in one chain), KD peaks are detected independently; each candidate is refined with a **local HMM window**, then domains are stitched into an alternating topology such as:
+For **multi-pass** proteins (several TM domains in one chain), KD peaks are detected independently; each candidate is refined with a **local HMM window** and then merged with global HMM-detected domains into an alternating topology such as:
 
 $$\text{C} \rightarrow \text{M} \rightarrow \text{E} \rightarrow \text{M} \rightarrow \text{C} \rightarrow \cdots$$
 
@@ -34,6 +34,7 @@ $$\text{C} \rightarrow \text{M} \rightarrow \text{E} \rightarrow \text{M} \right
 - **Aromatic anchors / tryptophan belt**: Trp, Tyr, and Phe often sit at the membrane–water interface, stabilising helix placement (Yau et al., 1998).
 - **TM motifs**: Short sequence patterns (e.g. glycine/alanine-rich motifs) can support helix–helix packing in the membrane.
 - **Hidden Markov Models**: A compact probabilistic model over hidden states (topology) and observed emissions (amino acid classes), decoded with the Viterbi algorithm, conceptually related to TMHMM-style predictors (Krogh et al., 2001).
+- **Heuristic confidence**: The reported confidence score is based on KD and biological heuristics only; HMM log-probability is displayed separately and is not currently folded into the confidence score.
 - **Multi-domain proteins**: Repeated hydrophobic segments separated by aqueous loops correspond to multiple TM domains; adjacent spans separated by fewer than 2 residues are merged into one domain.
 
 ## Mathematics
@@ -46,7 +47,7 @@ $$\bar{h}_i = \frac{1}{e_i - s_i + 1} \sum_{j=s_i}^{e_i} h_j$$
 
 where $s_i = \max(0,\, i-k)$ and $e_i = \min(n-1,\, i+k)$ (truncated windows at termini).
 
-A **TM candidate** is a contiguous run where $\bar{h}_i \geq \tau$ (default $\tau = 1.6$), with length $\geq 17$ residues. Candidates are ranked by mean KD within the run.
+A **TM candidate** is a contiguous run where $\bar{h}_i \geq \tau$ (default $\tau = 1.6$), with length $\geq 17$ residues. Candidates are ranked by mean KD within the run. The confidence score is computed over KD candidates using heuristic factors, not from HMM path likelihood.
 
 ### Confidence Score
 
@@ -101,8 +102,9 @@ $$\mathbb{E}[\text{length}] = \frac{1}{1 - a_{M,M}} = 20 \text{ residues}$$
 
 1. Run full-sequence Viterbi → baseline path and spans.
 2. For each KD candidate, extract window $[\text{start} - f,\, \text{end} + f]$ (default flank $f = 10$), run local Viterbi, and keep the TM span with maximum overlap to the candidate (fallback: KD span).
-3. Merge spans with loop gap $< 2$.
-4. Build **display path** via `build_alternating_path`: assign $\text{M}$ on each span; flip aqueous state C ↔ E after each crossing.
+3. Merge local candidate-guided spans with global HMM spans, preserving HMM-only domains that were not detected by KD.
+4. Merge spans with loop gap $< 2$.
+5. Build **display path** via `build_alternating_path`: assign $\text{M}$ on each span; flip aqueous state C ↔ E after each crossing.
 
 ## Model Aspects
 
@@ -221,15 +223,16 @@ Enter a sequence in standard single-letter amino acid codes (10–2000 residues)
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
-| **Window size** | 20 | KD sliding-window width |
+| **Window size** | 19 | KD sliding-window width |
 | **KD threshold** | 1.6 | Mean KD above which a window is hydrophobic |
 
 ### Output
 
 #### Summary metrics
 
-- Prediction label and confidence level
-- **HMM TM domain count** (candidate-guided refinement)
+- Prediction label and confidence level (heuristic score)
+- **HMM TM domain count** (candidate-guided refinement merged with global HMM spans)
+- HMM log-probability of the best Viterbi path (separate evidence)
 - TM residue count in display path
 
 #### Interactive tabs
