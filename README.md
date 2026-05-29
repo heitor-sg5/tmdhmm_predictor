@@ -290,7 +290,7 @@ tmdhmm_predictor/
 
 ![Figure 4](screenshots/hmm.jpg)
 
-### Evidence tab (multi-domain)
+### Statistics tab (multi-domain)
 
 Each detected TM domain appears in its own expander with:
 
