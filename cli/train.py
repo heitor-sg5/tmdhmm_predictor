@@ -7,21 +7,35 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from hmm.model import DEFAULT_INITIAL, DEFAULT_TRANSITIONS, DEFAULT_EMISSIONS, save_params, load_params
 from hmm.trainer import estimate_supervised
 
-def build_state_sequence(seq_len, tm_start, tm_end):
+def build_state_sequence(seq_len, tm_ranges):
     """
-    Convert TM annotation (1-based start/end) to per-residue state list.
-    N-terminal region → C (cytosolic), TM region → M, C-terminal → E.
+    Convert one or more TM annotations to a per-residue state list.
+    Assumes the N-terminus is cytosolic and alternates loop labels
+    between C and E across successive membrane spans.
     """
-    states = []
-    for i in range(seq_len):
-        pos = i + 1
-        if pos < tm_start:
-            states.append("C")
-        elif tm_start <= pos <= tm_end:
-            states.append("M")
-        else:
-            states.append("E")
-    return states
+    states = [None] * seq_len
+    current_side = "C"
+    last_end = 0
+
+    for tm_start, tm_end in sorted(tm_ranges):
+        # Annotate loop region before the TM segment.
+        for i in range(last_end, tm_start - 1):
+            states[i] = current_side
+
+        # Annotate TM segment.
+        for i in range(tm_start - 1, min(tm_end, seq_len)):
+            states[i] = "M"
+
+        # Flip aqueous side for the next loop region.
+        current_side = "E" if current_side == "C" else "C"
+        last_end = min(tm_end, seq_len)
+
+    # Annotate remaining tail after the last TM segment.
+    for i in range(last_end, seq_len):
+        states[i] = current_side
+
+    # Fill any unannotated positions conservatively as C.
+    return [state if state is not None else "C" for state in states]
 
 def parse_uniprot_txt(filepath):
     """
@@ -56,12 +70,11 @@ def parse_uniprot_txt(filepath):
                 in_sequence = False
                 if current_seq and current_tm:
                     seq = "".join(current_seq).upper()
-                    # Build state sequence from first TM annotation only
-                    tm_start, tm_end = current_tm[0]
-                    if tm_end <= len(seq) and tm_start >= 1:
-                        ann = build_state_sequence(len(seq), tm_start, tm_end)
-                        sequences.append(seq)
-                        annotations.append(ann)
+                    if tm_ranges := sorted(current_tm):
+                        if tm_ranges[-1][1] <= len(seq) and tm_ranges[0][0] >= 1:
+                            ann = build_state_sequence(len(seq), tm_ranges)
+                            sequences.append(seq)
+                            annotations.append(ann)
                 current_seq = []
                 current_tm  = []
 
