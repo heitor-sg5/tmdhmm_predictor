@@ -1,6 +1,6 @@
 # Transmembrane Helix Predictor (TM HMM)
 
-This tool predicts transmembrane (TM) helices and membrane topology from protein sequences, combining
+This tool predicts transmembrane (TM) helices and membrane topology from protein sequences, combining:
 
 - **Kyte-Doolittle sliding-window hydrophobicity** for TM candidate detection 
 - **Biological heuristics** including the positive-inside rule, aromatic interface anchors, and TM composition checks
